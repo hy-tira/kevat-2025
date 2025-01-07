@@ -9,6 +9,8 @@ Kurssi muodostuu kahdesta 5 op laajuisesta osasuorituksesta. Keväällä 2025 vo
 
 Kurssi suoritetaan ratkomalla automaattisesti palautettavia tehtäviä. Kurssi järjestetään samalla tavalla Helsingin yliopiston tutkinto-opiskelijoille ja Avoimen yliopiston opiskelijoille.
 
+[Kysymyksiä ja vastauksia](kysymykset)
+
 ## Luennot ja ohjaus
 
 Kurssin luennot järjestetään torstaisin klo 14–16 Kumpulan kampuksella (Exactum A111). Luennoista pyritään tekemään videotallenteet.
