@@ -1,6 +1,6 @@
 ---
 title: Tehtävät
-permalink: /tehtavat
+permalink: /tehtavat/
 ---
     
 # Tehtävät

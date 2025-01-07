@@ -1,6 +1,6 @@
 ---
 title: Tulokset ja palaute
-permalink: /tulokset-palaute
+permalink: /tulokset-palaute/
 hide: true
 ---
     

@@ -1,6 +1,6 @@
 ---
 title: Kurssin I-osan loppuraportti
-permalink: /raportti1
+permalink: /raportti1/
 hide: true
 ---
     
