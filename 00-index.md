@@ -21,7 +21,7 @@ Kurssin II-osan luentopäivät: 13.3., 20.3., 27.3., 3.4, 10.4., 24.4.
 
 Kurssin ohjausta järjestetään [Discordissa](https://study.cs.helsinki.fi/discord/join/tira), jossa voit keskustella kurssin järjestäjien ja muiden opiskelijoiden kanssa.
 
-Lisäksi ohjausta on tarjolla Kumpulan kampuksella. Ohjauksen aikataulut ilmoitetaan myöhemmin.
+Lisäksi ohjausta on tarjolla Kumpulan kampuksella Exactumin salissa BK107 tiistaisin klo 14–18, keskiviikkoisin klo 12–15 sekä torstaisin klo 10–13.
 
 ## Tehtävät
 
