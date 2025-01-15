@@ -27,9 +27,19 @@ Sinun tulee ratkaista joka viikolta vähintään viisi tehtävää deadlineen me
 
 Kurssilla ei ole tenttiä, vaan suoritus perustuu kokonaan tehtäviin.
 
-**Miten kurssin tehtävien ratkaisut tulee tehdä?**
+**Miten kurssin tehtävät tulee ratkaista?**
 
-Sinun tulee tehdä itse kurssin tehtävien ratkaisut. Et saa palauttaa esimerkiksi kaverin tekemää tai tekoälyn tuottamaa ratkaisua.
+Sinun tulee toteuttaa itse kurssin tehtävien ratkaisut. Et saa palauttaa esimerkiksi ratkaisua, joka on kaverin tekemä tai tekoälyn tuottama. Tarkemmin vaatimukset on kuvattu [kurssin pelisäännöissä](https://cses.fi/tira25k/text/3444).
+
+**Saako kurssilla etsiä tietoa netistä?**
+
+Et saa etsiä netistä suoraan tietyn tehtävän ratkaisua. Esimerkiksi jos tehtävänä on toteuttaa AVL-puu, et saa etsiä netistä AVL-puun toteutusta ja palauttaa sitä vähän muokattuna. Sinun tulee tehdä toteutus alusta alkaen itse.
+
+Muuten saat käyttää nettiä tavallisesti tiedonhakuun esimerkiksi, jos haluat selvittää tietyn asian liittyen Pythonin syntaksiin, funktioihin tai moduuleihin.
+
+**Voinko palauttaa aiemmin tekemäni ratkaisun?**
+
+Jos olet osallistunut kurssille aiemmin ja kurssilla on nyt sama tehtävä, voit palauttaa suoraan aiemmin itse tekemäsi ratkaisun.
 
 **Milloin suoritukset kirjataan?**
 
