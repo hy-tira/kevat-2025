@@ -11,8 +11,4 @@ Tarvitset kurssin tehtävien palauttamiseen mooc.fi-tunnuksen. Jos sinulla ei ol
 
 Kurssin tehtävät palautetaan CSES-järjestelmään, joka arvostelee ne automaattisesti.
 
-Linkki CSES-järjestelmään ilmestyy tähän myöhemmin.
-
-<!--
 * [Siirry tehtäviin](https://cses.fi/tira25k/list/)
--->
