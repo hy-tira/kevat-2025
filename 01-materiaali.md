@@ -15,6 +15,7 @@ Voit myös katsoa kaiken materiaalin samalla sivulla:
 ## Luentotallenteet
 
 * [Luento 16.1.2025](https://www.helsinki.fi/fi/unitube/video/b4bc417d-b153-43e8-9b65-1221bd493169)
+* [Luento 23.1.2025](https://www.helsinki.fi/fi/unitube/video/7256c4e6-a742-4bd0-8ecc-ae779f7d4ca6)
 
 ## Aiempi kurssikirja
 
