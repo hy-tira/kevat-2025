@@ -6,7 +6,7 @@ hide: true
     
 # Kysymyksiä ja vastauksia
 
-**Mitä suorituksia kurssin kuuluu?**
+**Mitä suorituksia kurssiin kuuluu?**
 
 Kurssiin kuuluu kaksi osasuoritusta, joista saa erillisen suoritusmerkinnän:
 
