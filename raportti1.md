@@ -18,7 +18,7 @@ Arvosanajakauma:
 
 ## Yhteenveto
 
-Palautteessa on paljon hyödyllisiä kokemuksia, havaintoja ja ehdotuksia. Kurssin kehitys jatkuu ensi lukuvuonna, ja palautteesta on paljon hyötyä kurssin kehityksessä.
+Palautteessa on paljon hyödyllisiä kokemuksia, havaintoja ja ehdotuksia. Kurssin kehitys jatkuu ensi lukuvuonna.
 
 Seuraavassa on tarkempia kommentteja joihinkin esille tuotuihin asioihin.
 
