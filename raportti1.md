@@ -6,199 +6,268 @@ hide: true
     
 # Kurssin I-osan loppuraportti
 
-Kurssille osallistui 295 opiskelijaa, joista 170 (57.6 %) suoritti kurssin hyväksytysti.
+Kurssille osallistui 424 opiskelijaa, joista 226 (53.3 %) suoritti kurssin hyväksytysti.
 
-Kurssilla oli käytössä poikkeuksellisesti hyväksytty/hylätty-arviointi. Jos käytössä olisi ollut tavallinen numeroarviointi, arvosanajakauma olisi ollut:
+Arvosanajakauma:
 
-* Arvosana 1: 94 opiskelijaa (55.3 %)
-* Arvosana 2: 47 opiskelijaa (27.6 %)
-* Arvosana 3: 10 opiskelijaa (5.9 %)
-* Arvosana 4: 9 opiskelijaa (5.3 %)
-* Arvosana 5: 10 opiskelijaa (5.9 %)
+* Arvosana 1: 67 opiskelijaa (29.6 %)
+* Arvosana 2: 47 opiskelijaa (20.8 %)
+* Arvosana 3: 41 opiskelijaa (18.1 %)
+* Arvosana 4: 35 opiskelijaa (15.5 %)
+* Arvosana 5: 36 opiskelijaa (15.9 %)
 
 ## Yhteenveto
 
-Palaute hyväksytty/hylätty-arvioinnista on jakautunutta: osa opiskelijoista pitää arviointitapaa hyvänä mutta osa näkee siinä ongelmana, että se ei kannusta ratkomaan minimimäärää enempää tehtäviä kurssilla.
+Palautteessa on paljon hyödyllisiä kokemuksia, havaintoja ja ehdotuksia. Kurssin kehitys jatkuu ensi lukuvuonna, ja palautteesta on paljon hyötyä kurssin kehityksessä.
 
-Kun verrataan kurssin tuloksia syksyllä 2023 ja 2024, ratkottujen tehtävien määrissä on eroa noin yhden arvosanatason verran. Syksyllä 2023 kurssin suorittaneet ratkoivat tehtäviä keskimäärin arvosanatasolla 3, kun taas tänä syksynä keskimäärin arvosanatasolla 2.
+Seuraavassa on tarkempia kommentteja joihinkin esille tuotuihin asioihin.
 
-Palautteessa on useita toiveita liittyen luentoihin ja videoihin. Ensi keväänä kurssilla tulee olemaan viikoittaiset luennot.
+"Kannustaisin muuttamaan kurssin tehtäviä ja arvoiointimenetelmää siten, että kurssista saatu arvosana on vain työstä kiinni, eikä niinkään älykkyydestä kiinni."
 
-Palautteessa toivotaan myös selkeämpää ohjeistusta siihen, miten tehtävien ratkomisessa saa käyttää apuna kurssimateriaalin ulkopuolisia lähteitä. Tavoitteena on parantaa ohjeistusta tulevaisuudessa.
+_Kommentti_: Kurssin arvosanan tarkoituksena on antaa kuva siitä, miten hyvin opiskelija hallitsee kurssin sisällön. Tämän takia ei olisi hyvä, että arvosana perustuisi siihen, paljonko työtä tai aikaa kurssin suorittaminen on vienyt.
+
+"Sillä kurssi suoritetaan nykyään täysin ohjelmointitehtävillä, voi teoreettinen osaaminen jäädä oppimistavoitteita heikommaksi."
+
+_Kommentti_: Tämä on tosiaan mahdollinen ongelma nykyisessä toteutuksessa. Kurssia kehittäessä mietitään, miten kurssille saisi lisättyä mielekkäästi teoriatehtäviä.
+
+"Tekoälyn jyrkkä kielto on melkein sama kuin kieltäisi internetin käytön."
+
+_Kommentti_: Kurssilla on kiellettyä palauttaa tekoälyn antamia ratkaisuja, mutta muilta osin tekoälyä saa käyttää oppimisen tukena. Kurssilla olisi tosiaan hyvä tuoda paremmin esille, että tekoälyn käyttö ei ole kaikilta osin kielletty.
+
+"Lisää vaihtoehtoisia toteutustapoja, vaikka koodi olisi oikea - se ilmeisesti pitää yhä olla suunnilleen samanlainen kuin kurssin materiaaleissa."
+
+_Kommentti_: Useimmissa kurssin tehtävissä riittää saada aikaan mikä tahansa tehokkaasti toimiva ratkaisu, joko käyttäen materiaalin tekniikkoja tai jollakin muulla tavalla. Jos ratkaisua ei hyväksytä oudolta tuntuvasta syystä, kannattaa olla yhteydessä kurssin henkilökuntaan.
+
+"Luennoilla olisi hyvä käyttää editoria jossa 40% kuvapinta-alasta ei mene turhiin ui-elementteihin, jolloin isompi osa ohjelmakoodista olisi luettavissa yhtä aikaa samalla kirjasinkoolla."
+
+_Kommentti_: Tämä on hyvä ehdotus, joka tulee käyttöön tulevilla luennoilla.
+
+"Kurssin säännöissä olisi ollut hyvä mainita, mitä Pythonin ominaisuuksia saa ja ei saa käyttää (esim. lajittelu, säännölliset lausekkeet)."
+
+_Kommentti_: Jos tehtävässä ei ole mainittu muuta, saa käyttää kaikkia Pythonin standardikirjaston moduuleja mutta ei esimerkiksi standardikirjaston ulkopuolista numpy-kirjastoa. Tämä asia olisi tosiaan hyvä tuoda esille nykyistä paremmin.
+
+"Tehtävänannoissa voisi selkeästi kertoa mikä on suurin sallittu aikavaativuus kyseisen tehtävän algoritmille."
+
+_Kommentti_: Koska useimmissa tehtävissä toteutetun algoritmin tehokkuus testataan suoritusajan perusteella, ei ole valitettavasti mahdollista ilmoitaa tarkasti, mikä on suurin sallittu aikavaativuus. Esimerkiksi aikavaativuuksien $$O(n)$$ ja $$O(n \log n)$$ eron havaitseminen suoritusajan perusteella ei ole käytännössä mahdollista.
+
+"Onks tän tarkoituskin olla sellainen epävirallinen RANK & YANK, LUULOT POIS, SYVÄÄN PÄÄTYYN UIMISTA OPETTELEMAAN -juttu?"
+
+_Kommentti_: Tämä ei ole kurssin tarkoitus, mutta kurssi on selvästi vaikeampi kuin jotkin aiemmat kurssit opinnoissa. Kurssin vastuuhenkilön näkemyksen mukaan on hyvä, että opintojen osana on kursseja, jotka tarjoavat paljon haasteita.
+
+"Tehtävien koodipohjat voisivat olla sellaisia, ettei Python herjaa syntax erroria aina kun koodi liitetään omaan editoriin."
+
+_Kommentti_: Tämä on hyvä ehdotus ja tätä on tarkoitus parantaa tulevaisuudessa.
+
+"Tämän ratkaiseminen lienee vaikeaa, mutta mielestäni kurssilla pitäisi jotenkin pitää huolta siitä ettei kurssia voi suorittaa ainoastaan tekoälyn avulla ainakaan hyvillä arvosanoilla."
+
+_Kommentti_: Tämä on tosiaan uhkana, koska tekoäly osaa ratkaista lähes kaikki kurssin tehtävät. Tällä hetkellä vaikuttaa siltä, että suuri määrä kurssin osallistujia käyttää tekoälyä vastoin kurssin ohjeita. Tämän takia onkin mahdollista, että kurssin suorituksen osaksi tulee tulevaisuudessa valvottu osuus.
+
+"Arvosanarajat olivat mielestäni liian tiukat siihen nähden, että tehtävätkin olivat vaikeita."
+
+_Kommentti_: Kurssin arvosanajakauman perusteella tilanne vaikuttaa kuitenkin siinä mielessä hyvältä, että kurssilla tulee melko tasaisesti eri arvosanoja. Kurssin vastuuhenkilön näkemyksen mukaan on hyvä, että korkeimmat arvosanat vaativat syventävää osaamista ja yleensä paljon työtä.
+
+"Pientä turhautumista meinasi aiheuttaa, kun jonkun tehtävän läpimeneminen oli kiinni siitä, käyttikö lähetyksessä CPython3 vai Pypy3 -vaihtoehtoa."
+
+_Kommentti_: Tästä tosiaan aiheutui turhia hankaluuksia ainakin viikon 3 tehtävässä _Laskut_, jossa tietyn tyyppinen ratkaisutapa oli yllättävän hidas PyPyllä suoritettuna. Tähän koetetaan kiinnittää enemmän huomiota tulevaisuudessa.
+
+"Kun kurssista on jutellut opiskelijakavereiden kanssa, niin moni on tuonut esille, miten kurssi sai tuntemaan itsensä huonoksi ja jotkut jopa sanoivat, että kurssin takia mietti kokonaan, että onkohan tämä ala minua varten vai pitäisikö lopettaa."
+
+_Kommentti_: Olisi hyvin ikävä tilanne, jos opiskelija keskeyttää opinnot tämän kurssin takia. Seuraavaa viestiä kurssin vastuuhenkilöltä saa välittää: tietojenkäsittelytiede on laaja ala, jossa voi menestyä erittäin hyvin osaamatta tämän kurssin aiheita.
+
+"Jos kurssilla on esitietovaatimuksia, niin nämä olisi kiva tietää etukäteen ettei kysyessä tule sellainen olo, että nämä asiat pitäisi jo tietää ja, että ne eivät kuulu tälle kurssille."
+
+_Kommentti_: Kurssin esitietovaatimukset ovat riittävän hyvä ohjelmointitaito (esim. kurssit _Ohjelmoinnin perusteet_ ja _Ohjelmoinnin jatkokurssi_) sekä matematiikan perustaidot (esim. kurssi _Johdatus yliopistomatematiikkaan_). Nämä voisi tosiaan tuoda nykyistä paremmin esille. Esitietoihin liittyvistä asioistakin saa mielellään kysyä kurssin ohjausväylissä, koska on esim. hyvin ymmärrettävää, että ei tiedä tai muista jotain aiemmalla kurssilla käsiteltyä asiaa.
 
 ## Kurssipalaute
 
-Kurssipalautteen antoi 131 opiskelijaa.
+Kurssipalautteen antoi 142 opiskelijaa.
 
 ### Numeerinen palaute
 
 Arvioi seuraavia väitteitä (1 = täysin eri mieltä, 5 = täysin samaa mieltä):
 
 * Osaamistavoitteet olivat selvät: 4.44
-* Toteutustapa tuki oppimistani: 4.24
-* Materiaalit tukivat oppimistani: 4.05
-* Arviointi mittasi oppimistani: 3.78
+* Toteutustapa tuki oppimistani: 4.20
+* Materiaalit tukivat oppimistani: 4.06
+* Arviointi mittasi oppimistani: 4.25
 
 Kurssin raskaus (1 = turhan kevyt, 5 = turhan raskas):
 
-* Työmäärä suhteessa opintopisteisiin oli: 3.36
+* Työmäärä suhteessa opintopisteisiin oli: 3.54
 
 Kurssin kokonaisarvosana:
 
-* Kokonaisarvosana kurssille: 4.14
+* Kokonaisarvosana kurssille: 4.23
 
 ### Miten kehittäisit kurssia?
 
-* Kurssi oli hyvä ja sopivan kattava.
-* Kurssi voisi olla suoritettavissa ympäri vuoden samaan tapaan kuin Ohjelmoinnin perusteet ja jatkokurssi
-* \* arvosanattomuus huono asia (se alkoi syödä motivaatiota heti läpäisyyn vaadittavien pisteiden jälkeen) * osa mallivastauksista tarpeettoma monimutkaisia (merkityksessä erittäin hieno, mutta vaikeaselkoinen), läpi pääsi vähemmän hienostuneella vastauksella (esim kuningatar-tehtävän mallivastauksessa käytetty matikka, kun kurssimateriaalin pienellä muokkauksella pystyi ratkaisemaan ilman sitä) * Joihinkin vaikeimpiin tehtäviin voisi laittaa näkyviin useamman tapauksen, jonka algoritmin täytyy ratkaista. Esimerkiksi kurssin viimeisessä tehtävässä olisin halunnut ennalta tietää, 1) työnnetäänkö laatikkoa ikinä samaan ruutuun, 2) onko ratkaistavissa sokkeloissa kääntöpaikkoja (esim. laatikko työnnetään kapeaa käytävää pitkin huoneseen ja sitten samaa käytävää toiseen suuntaan), 3)voiko laatikkoa työntää ruutuun, jossa laatikon vieressä on tyhjä ruutu, jonne työntäjällä ei kuitenkaan ole pääsyä, jne. Vaikeita tehtäviä olisi motivoivampaa lähteä yrittämään, jos läpäisyperusteista olisi hyvä käsitys.
-* viikon 4 tehtävä osalistat on aivan liian vaikea.
-* Numeroarviointi hyväksytty/hylätty-arvioinnin sijaan kannustaisi tekemään enemmän tehtäviä. Tehtävät voisi sijoitella luettavan materiaalin joukkoon, jolloin se kannustaisi järjestelmällisesti lukemaan materiaalia.
-* Lisäisin materiaaliin lisää esimerkkejä mitä voisi soveltaa tehtävien tekemiseen.
-* Aikaa olisi voinut olla suorittamiselle enemmän tai suoritusaikataulu voisi olla joustavampi.
-* provide more lectures regarding the content, especially the tree and network chapter
-* Luento-tyyppisiä videoita sitten kuitenkin vähän kaivasin, vaikka kirjallinen materiaali olikin hyvää.
-* Antaisin enemmän esimerkkejä materiaaleissa. Tehtävänannot olivat myös välillä mielestäni epäselviä.
-* Sellaisia esimerkkejä, joissa on kokonaisuus, vaikea hahmottaa toimivaa algoritmia, kun ne ovat erillisinä.
-* Tehtävät olivat haastavia, mutta mielenkiintoisia. Kurssilla vaadittiin mielestäni enemmän matemaattista oivaltamista, kuin ohjelmointi-spesifiä ongelmanratkaisua, joten kurssimateriaali voisi enemmän johdatella tähän suuntaan.
-* En ole varma onko hyväksytty/hylätty -arviointimenetelmä hyvä, alussa suunnitelmanani oli tehdä minimimäärä tehtäviä jotta pääsen kurssin läpi, ja uskon että on muita jotka ajattelivat samaa. Sen kokeilu on kuitenkin varmasti hyvä, jotta saadaan tietoa sen toimivuudesa.
-* Palauttaisin numeerisen kurssiarvioinnin. Mielestäni "Hyväksytty/Hylätty" -arviointimenetelmä kannustaa tekemään minimimäärän töitä kurssin eteen, sillä suuremmasta määrästä tehtyjä tehtäviä ei koidu lisähyötyä opiskelijalle. Toki he, joita kurssin sisältö erityisesti kiinnostaa, näkevät varmasti vaivaa ratkoakseen kaikista vaikeimpiakin tehtäviä, mutta muilla voi olla matalampi kynnys jatkaa ylitettyään pakollisen minimipisterajan. Koenkin, että numeroarviointi auttaisi eniten heitä, jotka muuten suoriutuvat kurssista heikoimmin: edes muutaman lisäpisteen metsästys paremman arvosanan toivossa voisi auttaa heitä opiskelemaan lujemmin ja ymmärtämään kurssin aiheita syvemmin, mistä palkintona olisi parempi arvosana - ja enemmän tietoa aiheesta.
-* Välillä tehtävät olivat enemmän "hahaa! Etpäs tajunnut tätä jekkua tehtävässä" - kuin olisivat opettaneet varsinaisempia nopeita tapoja laskea. Tehtävässä lukee "siirrä listaa" mutta oikeasti pitää vain siirrellä indeksiä.
-* Joissakin tehtävissä oli hieman haastavaa ymmärtää haluttua tulostetta. Tämä kuitenkin oma ongelma enemmän kuin kurssista johtuva. Esimerkkitulosteet olivat erittäin hyvä lisä kompleksisissa tehtävissä
-* En osaa sanoa.
-* Arviointi voisi olla numeerinen, mutta ehkä niin, että olisi enemmän valinnanvaraa, mitä tehtäviä tekee ns. "extrana". Esimerkiksi jos pakollisia per viikko olisi 4 ja loput voisi valita. 
-* Laajentaisin kurssimateriaalia ja vähentäisin knoppitehtäviä, jotka perustuvat oivallukseen. Enemmän selkeää opastusta ja sitä tukevia tehtäviä.
-* Kurssi oli aika haastava näin etänä, ehkä olisin nauttinut enemmän kurssin suorittamisesta nyt keväällä, kun on myös liveopetusta
-* Kurssi oli mielestäni todella hyvä!
-* En tiedä onko tuo hyväksytty-hylätty arvioitiperiaate tälläiselle kurssille ihan hyvä. Ainakin itsellä tuntui siltä että noh tehdään vaan se minimitavoite, koska en ainakaan saanut itse siitä irti että tekeisi enemmän, vaikka aihe olikin kiinnostava.
-* Kurssi on parantunut merkittävästi entisestä kun tietyt tehtävät on korvattu uusilla (ne jotka eivät olleet oleellisia oppimisen kannalta mutta jotka veivät kohtuuttomasti aikaa jonkin pikkuseikan takia).
-* Muutama lisäesimerkkikoodi olisi kiva olla, etenkin viikoilla 5/6 ja 8. Muuten kurssi oli kiva!
-* Ei minulla ole mitään mielessä. Olin erittäin tyytyväinen. Materiaalit olivat hyvin tehty ja tehtävät sopivan haastavia. Apua saa tarvittaessa hämmästyttävän nopeasti Discordista.
-* Lisä eritasoisia tehtäviä sekä lisä esimerkkejä algoritmien käytöstä
-* Tehtäviä voisi olla enemmän ja helpompia sen verran että saa tarvittavan määrän läpipääsyyn tehtyä ilman suurempia ongelmia
-* Laajemmin tukevaa materiaalia monimutkaisemmista algoritmeista. Tällä hetkellä tehtävien vaatimustaso ei ollut suhteessa opiskelumateriaaleihin.
-* Kehittäisin kurssia lisäämällä siihen mahdollisuuden suorittaa se eri ohjelmointikielillä. Esim. kurssin aiheiden harjoittelu C++:lla kiinnostaisi minua.
-* En keksi hirveästi kehitettävää. Pari vaikeinta tehtävää jäi ratkaisematta ja olisi kiva tietää, miten nämä olisi kuulunut ratkaista. Toisaalta en käynyt kurssin keskustelupalstalla, jossa vinkkejä olisi varmasti ollut tarjolla.
-* Osa konsepteista, kuten hieman monimutkaisemmat rekursiiviset funktiot saattaisivat aueta paremmin luentotyyppisellä materiaalilla.
-* Kurssi toimii hyvin tällaisenaan
-* Hieno materiaalipohja, mutta toivoisin vielä videomateriaalia, joka tukisi oppimista ja selittäisi vaikeampia aiheita tarkemmin.
-* Kurssi on mielenkiintoinen ja hyödyllinen. Jotkut tehtävät ovat aika vaikeita ja vaativat paljon aikaa. Olisi hyvä jos kurssin kesto olisi enemmän kuin yksi periodi ja olisi mahdollista suorittaa sitä esim. kesällä
-* Materiaaleilla ja netillä selvisi hyvin sopivalla pähkäilyllä. 
-* Nämä kommentit siitä näkökulmasta, että olen aikuisopiskelija, joka joutui nöyrtymään tehtävien edessä vaikka taustaa on koodauksesta (data-analytiikan näkökulmasta) toisella kielellä useamman vuoden ajalta ja ajoittain sielläkin suht teknisiä juttuja tullut vastaan. Python-taustaa ei ole oikeastaan kuin ohjelmoinnin perusteet -kurssin verran. Tein kurssia noin 30 tuntia laskurini mukaan, ja sain tehtyä ehkä 21/40 tehtävää alkaen tehtävistä 1 eli ehkä helpommasta päästä. Osaan tehtävistä meni vain 15-20 min, osaan tehtävistä meni varmaan 4 h niin että välissä oli yhdet yöunet. Jouduin jättämään kesken koska enempää aikaa ei ollut nyt panostaa. Työmäärä ei varmasti olisi siis ollut kohtuuton peilaten n. 5 opintopisteen työmäärään; vaikea sanoa olisinko esim. 60 tunnin työllä saanut kurssin pakettiin, ehkä.   - useammassa kohdassa mietin, miten nuoret opiskelijaparat joilla on taustalla ehkä vain ohjelmoinnin perusteet selviävät tästä kurssista. Ehkä tässä oli ajatuksena, että pitäisi olla käyty OOP-osio myös ohjelmoinnin perusteet -kurssista.?  - materiaalit oli mielestäni karsittu niin suppeiksi että sieltä oli ehkä vaikea löytää teoriaperustetta/ohjeita tehtävien tekemiseen. En kylläkään tiedä, sainko matskuja luettua riittävän ajatuksella tai ainakin liian harvoin testasin esim. python-tulkilla mitä esimerkkikoodit tekevät, mistä olisi varmasti ollut apua.  - kurssin tavoite on hyvä. Mietin vaan, tukeeko parhaiten oppimista, että kyse on vain tuollaisista "keksi koodi kokonaan alusta" -tyyppisistä tehtävistä vs. esim. "korjaa tätä koodia tehokkaammaksi". Itse tuppaisin ajattelemaan, että tämä kurssin asia on kuitenkin sen verran syventävää vrt. "koodauksen perustaidot" niin näkisin itse, että kurssia palvelisi paremmin kuin 8 viikkoa koodaustehtäviä (vaikka mukana oli toki pari testaa suoritusaikaa -tyyppistä tehtävää) se, että koodaustehtävien lisäksi olisi esim. ihan luettavia materiaaleja, videoita tms. siinä ohella ja rinnalla. esim. syvyys/leveyshakutyyppisistä voisi myös olla pidempi luettava lista.? Ymmärrän että tällöin ehkä pisteytys ja tarkistaminen tulee haastavammaksi, mutta jos mietin vain puhtaasti siltä kannalta että mikä opettaa algoritmien tehokkuudesta. Tehtävät ilman muuta opettavat jotain mutta mietin, kuinka monelle jää (itselleni ainakin) osasta tehtävistä vaan se fiilis että "ah jes, sain jotenkin tän nyt kikkailtua sallitulla tavalla, en ihan tajua ees mikä se ratkaiseva pointti oli" vs. se että pitäisi syvemmin ymmärtää esim. lukemaansa jostain artikkelista tai kirjan luvusta. En siis sano, ettei kannattaisi olla koodaustehtäviä lainkaan vaan se että miten intensiivisesti tämä perustui vain niihin. Koodaustehtävät ovat mielestäni erittäin perusteluja ohjelmoinnin perus ja jatkoon ainoana tehtävämuotona, mutta oma jälkimaku tästä kurssista on se, ettei opintotavoitteisiin päästä parhaalla tavalla pelkästään niillä.  TÄmä kaikki nyt siitä kulmasta, että rehellisesti harmittaa etten saanut varattua riittävästi aikaa kurssille ja jouduin nöyrtymään tehtävien edessä. :) Mutta pointissani on silti mielestäni siinä määrin relevanssia että jaan sen teille.  - mielestäni ehdottomasti kurssiin pitäisi lisätä esim. 1 x 1,5 h luento per kokonaisuus kuten ilmeisesti joinain vuosina on ollut. Lisäksi tosiaan harkitsisin valikoituja lisälukemistoja esim. kirjojen lukuja tms.   
-* Materiaaleissa voitaisiin vielä syventyä enemmän ratkaisuissa käytettävään logiikkaan, esim. vaikka ihan antamalla hyväksi/relevantiksi todettuja lisäresursseja
-* Numeroarvostelu olisi ehkä kannustanut tekemään vielä muutaman tehtävän lisää
-* Ehkä joku vihje toiminto vaikeampiin tehtäviin olisi mukava. Mutta toisaalta ei tarpeellinen koska pitää osata myös googlettaa asioita. 
-* Tehtävien joukossa voisi olla muutamia helpompia tehtäviä, joihin saa suoraan vastauksia materiaaleista. Nyt kaikki tehtävät ovat soveltamista. 
-* Ehkä materiaalissa voisi olla enemmän esimerkkejä.
-* Luentotallenteita sekä viittauksia muualta löytyvään materiaaliin. Ihmiset oppivat eri tavoin.
-* Materiaaleissa voisi tuoda selkeämmin esiin, että kurssilla käsiteltävät konseptit ovat erittäin keskeisiä tietojenkäsittelyssä. Lisäksi voisi tuoda yleisemmin ilmi, miten konseptit liittyvät toisiinsa ja mikä niiden asema on tietojenkäsittelytieteessä. 
-* Minusta arvostelu asteikolla yhdestä viiteen olisi parempi tapa mitata opiskelijan osaamista sen sijasta, että se arvostellaan asteikolla hylätty-hyväksytty. Kaipaisin tehtävien tekemiseen myös hieman enemmän apua kurssin aineiston esimerkeistä. Toisaalta tehtäviä voisi olla hieman enemmän. Osa niistä voisi olla helpompia ja osa vaikeampia, jolloin eri tasoisille opiskelijoille olisi oikea määrä haastetta tehtävien tekemisessä.
-* Hyvä kurssi. Olisi kiinnostavaa nähdä käytännön käyttökohteita eri algoritmeille
-* Vetäisin kurssia enemmän yhteen ja lisäisin yhteyksiä eri aihepiirien välillä. Nyt eri viikkojen materiaalit tuntuivat irrallisilta ja esimerkiksi viimeisen viikon tehtäviä tehdessä mietin, miten tosielämässä ottaisin huomioon näissä haastavissa verkko-tehtävissä, että algoritmin aikavaatimuksen pitäisi olla mahdollisimman pieni, ja onko se edes oikeasti tarpeellista.  Lisäksi tuntui hieman ristiriitaiselta, että kurssi selvästi painosti opiskelijaa etsimään tietoja itsenäisesti (sillä itse materiaalit olivat melko niukat ja valmiit esimerkit hyvinkin kaukana tehtävissä vaadituista ratkaisuista), mutta kuitenkin ohjeissa luki hieman hämmentävästi että mistään muualta kuin kurssimateriaalista ei saanut ottaa mallia. Tietenkin ymmärrän, ettei saa plagioida eikä se opeta mitään, mutta jos löydät toimivan tavan saavuttaa tuloksen vaikkapa Stackoverflowsta, eikö sitä saisi käyttää osana omassa ratkaisussaan? Miten muutenkaan oikeita ja toimivia ratkaisuja voi oppia, kuin ottamalla mallia?
-* Kurssin kirjalliset materiaalit ja Discordista saatava tuki olivat erittäin hyvät, mutta omaa oppimistani olisi tukenut, jos kurssilla olisi ollut esim. jotain videomateriaalia/aiempia luentoja tms. joissa asioita olisi myös selitetty (verrattuna siihen, että nyt kaikki materiaali oli oman lukemisen varassa). Varsinkin vaikeimpien esimerkkien ymmärtämiseen itsellä meni kauan aikaa ja tuntui työläältä pelkästään lukea niitä.
-* Kurssimateriaali on muuten  hyvä ja kattaa melkein kaiken tarvittavan tiedon, mutta  teorian ymmärtämistä olisi ehkä helpottanut enemmän erilaiset esimerkit.
-* Kurssimateriaali oli ihan hyvä ja selkeä, mutta aina kun aloin tehdä tehtäviä, tuli tunne että olen aivan pihalla. Sain kuitenkin lopulta vaadittavat tehtävät tehtyä, mutta ehkä oppimista olisi helpottanut jos olisi ollut muutama ns. lämmittelytehtävä per viikko. 
-* No jos jotain pitäisi keksiä, ehkä enemmän tukea miten oivaltaa asioita auki, tosin kun ajattelutapa muodostui oli helpompaa edetä kurssilla. Loppuun kohti oli hyviä esimerkkejä.
-* Tehtäviä voisi olla ehkä enemmän per viikko, esim yhteensä 80+, joista tulisi ratkoa vähintään 40 kurssin läpipääsyksi. Lisäksi materiaalit koin ajoittain aika suppeaksi.
-* Olihan tämä melkoisen teoreettista. Koordinaatisto- ja reitinhakujuttuja lukuun ottamatta en oikein osannut aiheille keksiä käytännön sovelluksia. Kai niitäkin on olemassa ja niistä voisi olla kiva lukea.  Discord serveriltä vinkkejä hakiessa opin, että on olemassa jonkinlainen Tira-kirja ja jossakin Unitubessa on myös aiheista videoita. Nämä tiedot eivät ainakaan näin avoimen yliopiston opiskelijalle selvinneet mistään muualta kuin vahingossa vanhoista kommenteista. Ehkä nämä lisämateriaalit voisi jossain mainita.
-* kiva että oli niikuin tietty määrä mitä vaan piti tehä. Vaihtoehtoja tehtävistä oisi voinu ollla enemmän, et viikottain 8, josta viimeset on todella vaikeita ei ehkä niin kiva mut, ehkä vaan hyvä sillee et ne jotka haluaa sen hyvän arvosanan nii sit pitää osaa tehä noita. 
-* Ehkä joihinkin tehtäviin lisää vinkkejä, mutta vain haastavimpiin. En keksi muuta.
-* eos, suoritin kurssin uudestaan vaan muuntaakseni numeroarvosanan hyväksytyksi (ei numeroa)
-* Materiaalia voisi ja esimerkkejä voisi olla vieläkin enemmän. 
-* Tehtäviin voisi lisätä niiden vaikeusasteen esim. normaali/vaativa. Tämä ei toki aina ole yksiselitteistä, mutta voisi auttaa opiskelijoita organisoimaan ajankäyttöään paremmin. Kurssi voisi myös olla auki pidempään, kuten monet muutkin MOOC-kurssit. Ei ole perusteltua, että miksi tämä pitää suorittaa parissa kuukaudessa, mutta toisissa kursseissa suoritusaikaa on vuosi.
-* Ehdottomasti laajentamista vielä materiaaliin ja lisää esimerkkejä. Mielestäni esim. puut ja rekursio-osiossa pitäisi käsitellä vielä tarkemmin eri käsitteitä, esimerkiksi syvyyttä. Itse en meinannut materiaalia lukiessani ymmärtää käsitettä solmun syvyys, kunnes googlaisin asiaa.
-* Kurssilla on todella paljon tehtäviä ja kurssiohjeet antavat tiukat rajat sen suhteen miten esim online lähteitä saa käyttää. Näin aiheutuu paljon tilanteita missä yhden tehtävän ratkaisemiseen menee todella paljon aikaa, olen taistellut yksittäisten tehtävien kanssa pahimmillaan kokonaisen illan kun on tullut jokin seinä vastaan. Mielestäni oppimista ja relevantteja työelämä taitoja tukisi paljon enemmän että saisi hieman vapaammin käyttää online lähteitä ja sitten esim koodin kommenteilla osoittaisi että on ymmärtänyt mitä missäkin kohtaa tapahtuu.
-* Kurssi oli hyvin toteutettu, en kehittäisi mitään
-* Lisäisin materiaalin määrää
-* Kurssi toi ehkä liian vaikea. Tehtävät olivat vaikeita.
-* Ei paljoakaan, jotkin tehtävät olivat vaikeita.
-* Vähän selkeämpiä tehtävänantoja. Mutta ei mitään suurempia moitteita, hyvä kurssi.
-* Itselleni ainakin malli, jossa kaikki tehtävät suoritetaan itsenäisesti ilman viikoittaisia palautuksia tai muita välipalautuksia on raskas, ja omassa aikataulussa on vaikea pysyä.
-* Kurssi tällaisenaan oli hyvin raskas kurssi suorittaa. Luulin, että kurssi olisi nopea ja helppo suorittaa, koska se tehdään vain tehtäviä tekemällä. Olin väärässä, tein yhden viikon aikana aina yhden viikon tehtävät kurssilta ja tuntui ettei aika tahtonut millään riittää. Viiden vaaditun tehtävän sijaan voisi jokaiselta viikolta vaatia neljän tehtävän suorittamista. Tämä tekisi kurssista jo merkittävästi kevyemmän ja antaisi myös enemmän valinnanvaraa tehtävistä.
-* Lisäisin vaihtoehdoksi käyttää jotain muuta kuin Pythonia, kuten C++, Rust, tai Haskell. Varsinkin kun on kyseessä tehokkaiden algoritmien laatiminen, Python ei ole omiaan.
-* Kurssin ohjeistukset ulkoisten tiedonlähteiden käytön suhteen tekivät joidenkin tehtävien tekemisestä haastavaa. Minulla oli ajoittain hankaluuksia löytää tietoa tehtäviin, joihin ei ollut tarpeeksi ohjeistusta kurssimateriaalissa. Kynnys hakea ideoita netistä oli todella korkea, koska hakutuloksissa tulee turhan usein vastaan esimerkkivastauksia samankaltaisiin tehtäviin.
-* Joko alentaisin tehtävien vaikeustasoa, antaisin enemmän materiaalia tukemaan tai nostaisin kurssin opintopisteen määrää
-* H/H pois ja 1-5 takaisin arvioinnin menetelmäksi. Materiaali on varsin lyhyt; en kokenut sitä kovin hyödylliseksi. Tehtäviä voisi olla enemmän, erityisesti "perustehtäviä". Ei sellaisia, joissa testataan vain koodaustaitoja, mutta helpohkoja tehtäviä, jotka tekisivät vaikeustason nousun pehmeämmäksi. Työmäärä kurssilla nimittäin ei ole kovinkaan korkea, mutta ainakin itse havaitut vaihtelut tehtävien vaikeustasoissa olivat melko radikaalit.
-* Hyvin järjestetty kurssi, ei tule mieleen mitään mitä voisi parantaa
-* Mer djupgående material
-* Tehtävien ymmärtämiseksi on tärkeää esittää riittävästi esimerkkejä perusteluineen tehtävänannon yhteydessä.
-* En pidä hyväksytty/hylätty arviointi menetelmästä.
-* En valitettavasti osaa kertoa parannusehdotuksia, kohdassa muita huomioita selitän mikä minulle tuotti ongelmia eli olisi ehkä jonkinlainen tarve kehittämiselle...
-* Monessa osassa ei löytynyt itselleni sopivan keskitasoista tehtävää, joka pehmentäisi siirron helpoimmista vaikesiin tehtäviin. Ensimmäiset 4-5 menevät vaivatta, niiden jälkeen huomattava tasoero. Kuitenkin ongelma johtunee minun puolelta...
-* Materiaalissa on selitetty joidenkin asioiden matemaattista taustaa, mutta näitä selityksiä pitäisi laajentaa, jos halutaan, että asia tulee oikeasti sisäistetyksi. En huomannut, että missään olisi viitattu Johdatus yliopistomatematiikkaan -kurssillakin käsiteltyihin relaatioihin, vaikka se olisi mielestäni ollut sopivaa.
-* voisi olla enemmän esimerkkejä käytännön sovellutuksista
-* Vaikka kurssi toteutettiin moocina, voisivat materiaalit tehtävien tueksi olla kattavammat. Lisäksi luennoista ja videoista voisi oppimisen kannalta olla hyötyä.
-* Tehtävänanto voisi olla parempaa
-* Tarjoan useita ratkaisuja ongelmien ratkaisemiseen.
-* En tiedä tuleeko vastaukset kurssin jälkeen jonnekkin saataville, mutta oli vähän turhauttavaa jäädä hakkaamaan päätään tehtävän kanssa mihin en onnistunut löytämään apua kurssimateriaalista. Kurssin arviointijärjestelmän vuoksi ei ole niin merkitystä vaikka yksi tehtävä jäisi palauttamatta, mutta jää häiritsemään jos ei yrittämisestä huolimatta onnistu löytämään oikeaa ratkaisua. Hyväksytty/Hylätty arvostelussa on hyvät ja huonot puolensa, en (ainakaan vielä) tehnyt kaikkia tehtäviä kurssilta, olisin todennäköisesti tehnyt jos sillä olisi merkitystä arvosanaan. Toisaalta tuo vähemmän stressiä, erityisesti ym. kaltaisissa tilanteissa kun ei vain onnistu löytämään oikeaa ratkaisua.
-* Mukana voisi olla myös luentoja
-* Olihan tuo vähän vitsi että yksi näistä klassisista vaikeista kursseista on typistetty asteikolle hyväksytty/hylätty. Aikaisempien vuosien opiskelijat on puistelleet päitään aika huolella. Toki omaan aikatauluun sopi erittäin hyvin että pystyi suorittamaan kurssin rimaa hipoen.
-* Enemmän esimerkkejä
-* Numeroarviointi
-* En keksi tähän mitään.
-* Toteuttaisin kurssin arvosana-asteikolla 1-5, hyväksytty/hylätty sijaan. Hyv./hyl.-arviointi ei motivoi käyttämään aikaa vaikeimpien tehtävien ratkaisuun, mikäli ne eivät heti avaudu.
-* Tehtäviä palauttaessa olisi hyvä saada hieman tarkempaa informaatiota siitä, mihin testit kaatuivat. Tehtävien kuvaukset eivät myöskään olleet yksiselitteisiä, joten testien sisällön näkeminen esimerkiksi stack tracen muodossa kertoisi hieman lisää siitä, mitä ratkaisujen oletetaan tekevän.
-* Arvosanaton versio oli mielestäni parempi kuin aikaisempi
-* Mielestäni materiaalit tarvitsevat video esimerkkejä jos luentoja ei ole. Ei riitä, että lukee vain materiaalit ja siitä joutuu hyppäämään suoraan syvään päätyyn tekemään tehtäviä. Tehtävät olivat lyhyitä, mutta vaikeita ja siksi lisäesimerkit ei olisi pahitteeksi.
-* En keksi, miten kurssia voisi kehittää edelleen.
-* Mielestäni toteutustapa on loistava eikä ole tarvetta kehittämiselle.
-* Kaikki toimi mielestäni hyvin. Materiaalit olivat selkeitä, sopivan kattavia mutteivät liian pitkiä ja yksityiskohtaisia, ja niiden avulla tehtävien tekeminen sujui enimmäkseen hyvin. Tehtävämäärä oli sopiva, ja oli hyvä, että jokaisella viikolla tehtävissä oli valinnan varaa. Toteutus sopi hyvin itseopiskelukurssiksi.
-* Nykyinen tyyli todella hyvä, hyväksytty/hylätty tukee oppimismotivaatiota koska ei tarvitse murehtia vaikean kurssin lisäksi vielä kurssiarvosanaa.  Joitain videolinkkejä esim. youtube esimerkkeihin algoritmeistä voisi sisällyttää kurssiin, tekstistä voi olla vähän vaikea joskus hahmottaa algoritmin toimintaa etenkin vaikeissa konsepteissa niinkuin BFS.  Kurssin materiaali erinomainen, omasta mielestä paljon parempi ja selkeämpi kuin ent. Tirakirja, tosin kirjassakin on hyviä täydentäviä asioita joten sen voisi selvemmin linkata netti materiaalissa.
-* hieman selkeämpiä tehtäviä...
-* Joissakin vaikeimmista tehtävistä jokin pieni vihje, jolla olisi päässyt alkuun, olisi ehkä auttanut jatkamaan. Toisaalta tarjolla oli myös Discord ja materiaali oli hyvä, joten en näe tätä mitenkään erityisen kriittisenä.
-* Enemmän esimerkkejä
-* Algoritmin 1, 2 ja 3 viikolla ero oli järkyttävän suuri. 4 viikolla meinasin jo jättää kurssin välistä, sillä en uskonut pystyväni siihen. Siinä mielessä materiaalia oli aika vähän luettavaksi. Sinänsä hyvä -- jos kaikki tarvittava oli materiaalissa, sinänsä huono, kun jotkut tehtävät tuntuivat kamalan haastavilta. Ehkä on liikaa pyydetty, että kurssia helpotettaisiin, mutta ehkä olisin henkilökohtaisesti tarvinnut paljon enemmän "for dummies" ohjeita varsinkin alkuun :--).
-* Mielenkiintoinen kurssi, olisin toivonut enemmän prujumaista lukemista aiheesta ja vähemmän trial and error tyyppistä pään hakkaamista seinään tehtävien parissa, mutta ehkä tämä kehitti ongelmanratkaisukykyä enemmän. Jotkin kurssin konseptit, esim. BFS, DFS, binäärihaku, jäivät ehkä hieman ohuesti läpikäydyiksi, kun taas useampaan otteeseen sai pohtia että mikä ihme on inversio ja miten sen avulla saisi jonkin tehtävän ratkaistua riittävän tehokkaasti. Eli siis tuntui että tehtävät olivat vaikeita eivät siksi, että ei olisi ymmärtänyt tämän kurssin sisältöä, vaan että diskreettiä matematiikkaa ei hallinut riittävän hyvin että olisi voinut "keksiä" riittävän tehokkaan algoritmin.
-* Pidin kurssista tällaisena.
-* Joissain osioissa on lisätietosivuja tekstin seassa olevien linkkien takana, olisi kätevää, jos nämä olisi listattu lisäksi selkeämmin esim. osion lopussa. Muutaman kerran on ekalla lukukerralla mennyt näitä ohi, kun keskittyy tekstin lukemiseen.
-* Enemmän teoriaa ja esimerkkejä
-* Enemmän esimerkkejä kurssitehtävistä, nämä on monimutkaisia asioita ja esimerkit auttavat paljon
-* En osaa sanoa.
-* tää oli hyvä
-* Enemmän käytännön esimerkkejä kurssimateriaalissa.
-* ois ollu fresh saada numero
-* Hyväksytty/hylätty -arviointi ei motivoinut suorittamaan kaikkia tehtäviä vaan hyväksyttävän määrän.
-* En keksi mitään kehitettävää.
-* En keksi kehitettävää.
-* Kurssi käy joitain aiheita liian lyhyesti tai pintapuolisesti läpi. Osa tärkeistä esimerkeistä jää lähes kokonaan mainitsematta. Esimerkiksi järjestämisen yhteydessä ei taideta edes kertaalleen mainita quicksorttia. Vähintäkin voisi laittaa edes aiheen loppuun linkkejä lisälukemiseksi tai kurssin alussa voisi mainita jonkun kirjan missä aiheita käydään perusteellisemmin läpi.  Nyt tuntuu, että kurssilla raapaistaan vaan pintaa ja loppu jää sitten ns. googlettelemiseksi, mikä ei mielestäni sovellu ylipiston tasoiselle oppilaitokselle, ainakaan kursseilla missä tarkoituksena on opettaa tärkeitä perusteita. Tästä kurssista on ainakin ennen tainnut olla versio missä on ollut kattavammat oppimateriaalit jo ykkösosassa.  Arvosanan poistaminen pelkälle hyväksy/hylkää asteikoille halventaa kurssia ja oppilaiden työpanosta. Tällainen malli sopii joillekin kepeimmille kursseille, mutta ei Tiraan.
-* Lisäisin huomautuksen materiaaliin että jotkut tehtävät ovat ratkaistavissa aika helpolla/lyhyellä koodilla. Suosittelisin myös että ennen kuin aloittaa jokaisen tehtävän se kannattaa tehdä ensin paperille. Uskon että tämä auttaisi paljon. Pidin myös kovasti hyväksytty/hylätty arvostelusta, se tuki oppimistani ja opintoihin paluuta työelämästä. Lisämateriaali olisi aina plussaa myös.
-* Olisi mielenkiintoista saada myös esimerkkejä tosielämästä, missä mitäkin menetelmää voisi mahdollisesti hyödyntää tai on jo hyödynnetty? 
-* Kurssimateriaaleissa voisi olla vieläkin hieman enemmän esimerkkejä ymmärtämisen tukemiseksi.
-* Ei tule kehitysehdotuksia mieleen, materiaali ja tehtävät on erinomaisesti toteutettuja. En itse tosin kannata hyväksytty/hylätty arvosteluasteikkoa.
-* Henkilökohtaisesti vaihtaisin kurssiarvioinnin takaisin arvosanalliseen arviointiin, sillä hyväksytty/hylätty -arviointi ei ainakaan henkilökohtaisesti motivoinut minua tekemään vaadittua minimiä enemmän tehtäviä.
-* Tehtävissä voisi olla jonkinlaisia monivalintakysymyksiä, jotka mittaisivat teoriatiedon oppimista. Nyt jäi vähän sellainen tunne, että sitä kaikkea omaa osaamistaan ei päässyt kattavasti tuomaan esille, koska palautettavat tehtävät olivat ainoa mittari ja ne olivat verrattain haastavia.
-* Kurssi on aika haastava ja välillä tuntuu että tehtävien kanssa tulee helposti seinä vastaan. Esimerkit ovat hyviä, mutta etenkin viikkojen edetessä tuntuu, että niitä saisi olla enemmän ja käydä vielä tarkemmin esimerkkien toimintaa läpi tai vähän toisiaan liippaavia esimerkkejä voisi olla enemmän jotta hahmottaisi helpommin. Vaikka aina ratkaisu ei tosiasiassa vaadi montaa riviä koodia, tuntui ratkaisun löytäminen usein haastavalta ja yksittäinen tehtävä voi viedä melkoisesti aikaa. 
+* Tämä toki onnistuu, ilman kurssin muokkaamista ja on vain omastaja ajattelu maailmasta kiinni, mutta vaikka 2 viikon välein Deadline osalle palautuksista.
+* Minusta tuntuu, että kurssin arviointimenetelmä ei välttämättä ole oikeassa suhteessa siihen kuinka paljon työtä kukin tekee, sillä jotkut eivät välttämättä osaa ratkaista näitä tehtäviä vaikka kuinka yrittäisi, mutta tämä ei tarkoita, että he eivät ole motivoituneita. Kannustaisin muuttamaan kurssin tehtäviä ja arvoiointimenetelmää siten, että kurssista saatu arvosana on vain työstä kiinni, eikä niinkään älykkyydestä kiinni.
+* \- 
+* Monipuolisempia tehtäviä!
+* Lisää malliesimerkkejä materiaaleihin. Nyt varsinkin joissain haastavammissa tehtävissä tuntui, ettei materiaaleista ollut paljon ollenkaan hyötyä.
+* kaikki tehtävät heti saataville
+* Enemmän helpompia tehtäviä.
+* Vähän enemmän lukumateriaalia.
+* Tehtävät voisivat olla hiukan enemmän mukaansatempaavia miten sen nyt kukakin tulkitsee. Oli monesti hiukan hankala saada materiaalin pohjalta suoraan tehtävistä kiinni.
+* Mielestäni tai ainakin minun aikatauluihini kurssin suoritusaika oli turhan rajattu.
+* Laajentaisin kurssimateriaalia, enemmän tehtävien kaltaisia esimerkkejä tms.. 
+* Oikeest tykkäsin täst ihan sikana, ei mitään parannettavaa :D
+* Monesti haasteet tehtävien parissa juontuivat siitä millaisia valmiuksia minulla on ongelmanratkaisussa tai miten osaan hyödyntää ohjelmointikieltä ratkaisun toteuttamisessa. Omalla kohdalla varsinkin jälkimmäinen on heikkoa, kun on niin vähän aiempaa ohjelmointi kokemusta. Nyt minulla oli aina päällekkäin kysymykset siitä 1) onko lähestymiseni oikea, 2) toimiiko koodini niin kuin ajattelen ja 3) millaisia muuttujia/funktioita olisi mahdollista/järkevä käyttää. Tästä oli vaikea muotoilla kysymystä Discordiin. Olisin kaivannut matalamman kynnyksen foorumia, jossa olisin voinut prosessoida kehittymistä ohjelmoijana yleisemmällä tasolla.
+* en osaa sanoa
+* Kurssi oli hyvä tällaisenään.
+* En keksi kehittämistä.
+* Materiaali olisi voinut olla laajempi.
+* Enemmän osallistavaa opetusta ja opettavampaa luennointia. Tehtävien tekemiseen voisi myös olla enemmän aikaa varattuna.
+* voisi olla yksi laajempi "projekti" tehtävä. muuten 5/5 kurssi
+* Osa tehtävistä on melko vaikeita ja niissä voisi antaa enemmän vihjeitä minkä suuntaista ratkaisua haetaan, missä kohtaa materiaaleja ko. tehtävässä tarpeen oleva tietorakenne, algoritmi tms. on opetettu. Toisaalta tietty "pähkinän ratkaisu" on motivoivaa ja balanssi näiden suhteen on jo nyt ihan ok. Toki... Discordissa näitä vinkkejä saa ihan hyvin jos tarvitsee, eli ihan hyvä ja aktivoiva ratkaisu niinkin.
+* Mielestäni kurssi on tällaisenaan hyvä, tosin en ehkä ole paras arvioimaan sitä, koska tiesin suurimman osan kurssin asioista jo ennalta.
+* Kurssi oli todella hyvä, ja kokonaisuus toimii hyvin. En keksi kehityskohtia
+* Sillä kurssi suoritetaan nykyään täysin ohjelmointitehtävillä, voi teoreettinen osaaminen jäädä oppimistavoitteita heikommaksi. Siksi lisäisin kurssille viikottaisia miniprojekteja kuten tietokantojen perusteissa, jotka pohjautuisivat tira-kirjaan.
+* Aika hyvä kokonaisuus. Ei ole vielä tullut mieleen ideoita miten voisi kehittää.
+* Joidenkin tehtävien välissä tai lähinnä viikon sisällä tuntuu olevan hyvin isoja vaatimus eroja.
+* Esimerkit ja tehtävät algoritmien käyttämisessä tosielämän ongelmien ratkaisuissa olivat mielenkiintoisia. Puolestani ei olisi pahitteeksi vaikka niitä olisi enemmänkin ja viittauksia käytännön tapauksiin (näiden ratkaisut on toki todennäköisesti laajempia kuin yhden kurssin laajuus).
+* Joihinkin vaikeisiin koodaustehtäviin voisi olla jotain pieniä vinkkejä, esimerkiksi kun on palauttanut monta epätoimivaa ratkaisua tai painamalla jotain vinkki nappia. Tätä ei tarvitsisi kaikkiin tehtäviin eikä näiden vinkkien pitäisikään olla kauhean suuria, mutta ehkä jotain pientä nykäisyä oikeaan suuntaan, esim: "tässä tehtävässä voisi olla apua sanakirjojen käytöstä" tai "löydät apua tähän kappaleesta 6". Toki kurssi toimii ilmankin vinkkejä.
+* Se on jo hyvä. 
+* Tekoälyn suora kieltäminen tuntuu oudolta. Koodin kopioiminen tulee olla kielletty tietenkin, mutta tekoälyä pystyy hyödyntämään materiaalin kanssa paljon enemmän kuin vain koodin luomiseen.  Tekoälyn jyrkkä kielto on melkein sama kuin kieltäisi internetin käytön.
+* Osittain materiaalit ja esimerkit olivat aika ohuita.
+* Loppupään kaltaisista soveltavista tehtävistä voisi olla enemmän esimerkkejä materiaaleissa.
+* Tämä voi johtua vain minusta, mutta useammassa tehtävässä tehtävänanto oli mielestäni hieman epäselvä. Tästä esimerkkinä viikon 2 tehtävä Kierrosten määrä. En nimittäin tehtävänannosta tajunnut, että se tulee ratkaista listaa, eikä esimerkiksi sanakirjaa, käyttämällä. Ratkaisin aluksi tehtävän siis kurssimateriaalin sanakirjaa hyödyntävän esimerkin avulla. Vasta viikon 4 tehtävän Kierrosten tehokkuus kohdalla ymmärsin tehneeni tehtävän 'väärällä' tavalla, vaikka se olikin mennyt oikein. Myös muutamassa muussa tehtävässä kurssin aikana ajauduin vaikeuksiin, sillä yritin ratkaista jokaisen tehtävän ilman sisäkkäisiä for-looppeja. Osassa tehtäviä tämä oli kuitenkin sallittua ja mahdollista, joten olin käyttänyt paljon ylimääräistä aikaa löytääkseni toisen toimivan ratkaisun.
+* Lisää vaihtoehtoisia toteutustapoja, vaikka koodi olisi oikea - se ilmeisesti pitää yhä olla suunnilleen samanlainen kuin kurssin materiaaleissa.
+* Lisäisin malliratkaisun koodiin kommentteja, koska joidenkin tehtävien malliratkaisuja on melko vaikea ymmärtää. Lisäksi kurssin alkupuolella oli myös hieman epäselviä asioita, kuten miten on hyvä lähteä suunnittelemaan algoritmeja, mutta tällaiset asiat selvensivät kurssin edetessä.
+* Tehtävien visualisointi auttaisi paremmin ymmärtämään, mitä tehtävällä halutaan. Muutamien tehtävien kohdalla en meinannut ymmärtää tavoitetta.
+* Robottitehtävä viikko 1. oli hankala ymmärtää tehtävänannosta.
+* Enemmän esimerkkitehtäviä joilla voisi harjoitella
+* Työmäärä ja vaativuustaso olivat mielestäni sopivia. Joissakin tehtävissä (ainakin vko 4 Osajonot) ei ollut aikavaatimusta O(n) tai O(1), vaikka yleisesti ottaen useimmissa muissa tehtävissä oli. Näissä poikkeustapauksissa tehtävässä olisi ehkä voinut olla huomautus, että esim. O(n^2) sallitaan.
+* Vet inte
+* Kurssimateriaalissa voisi käydä asioita läpi tarkemmin
+* Materiaalissa voisi olla enemmän toteutusesimerkkejä ja tarkemmat selitykset mitä koodissa tapahtuu. Tämä auttaisi niitä, jotka eivät ole harjaantuneita pythonin käyttäjiä. 
+* Kurssin vaikeimpiin tehtäviin voisi saada jotain vinkkejä sen jälkeen kun on koittanut palauttaa tehtävän useampaan kertaan.
+* Vikassa tehtävässä voisi erikseen mainita, että 41 on vielä mahdollinen. Tehtävässä kerrotaan, että 42 ei ole mahdollinen mutta itse pitkään pohdin, että onko edes mahdollista löytää 41 mittaista reittiä, kun sitä ei erikseen sanottu.
+* Lisäisin materiaaliin esimerkkejä. Luentoja voisi myös pitää useammin.
+* En itse rehellisesti keksi mitään. MOOC toimiva, varsinkin kun tässä toteutuksella on ensimmäistä kertaa verkkoluennot käytössä, jotka helpotti opintoja. Tehtävät sopivan vaikeita ja vaatimukset kurssin suoritukselle selkeä.
+* Luennoilla olisi hyvä tehdä esimerkkitehtäviä, joihin löytyy materiaalia, jotta sitä voi seurata. Monesti luennolla jos meni osa tehtävästä ohi, oli siiitä mahdotonta lopussa saada kiinni mitä tehtiin. Materiaalit eivät aina tukeneet tehtäviä.
+* Mielestäni kurssi oli hyvin toteutettu. Jotkin tehtävät olivat erittäin haastavia, vaikka hallitsisikin kyseisen aihealueen ohjelmoinnin näkökulmasta. Näissä tehtävissä kyse oli enemminkin algoritmillisesta ajattelusta.
+* Lisäämällä materiaaliin enemmän esimerkkejä.
+* Enemmän selitystä miksi oma output oli virheellinen
+* lisää esimerkkejä luennoissa jotka auttaisivat tehtävien tekemisessä
+* Kokonaisuudessaan hyvä ja haastava kurssi. Mielestäni hyvänä lisäyksenä (omalle kohdalle ainakin) olisi pari "helpohkoa" lisätehtävää jokaisen aiheen pääpilarista, saisi varmuutta vikoihin tehtäviin kun tietää, että perusteet on kunnossa, soveltaminen vaan tökkii
+* en osaa sanoa
+* Ei tule mitään konkreettista mieleen.
+* Olisi ollut kiva saada enemmän "luentomaisia" luentoja, missä käytiin läpi esim. Tirakirjaa. Itselle pelkkä tehtävien jonkinlainen läpikäynti ei riittänyt.
+* Lisää helpompia tehtäviä alustamaan vaikeita.
+* Kurssi oli erittäin hyvin järjestetty ja pajasta oli paljon hyötyä. Työmäärä oli aika iso, koska tehtävät olivat soveltavia, mutta sille ei oikein voi mitään. 
+* Luennoilla olisi hyvä käyttää editoria jossa 40% kuvapinta-alasta ei mene turhiin ui-elementteihin, jolloin isompi osa ohjelmakoodista olisi luettavissa yhtä aikaa samalla kirjasinkoolla.   Noin muuten luentojen sisältö on tavallaan hyvää mutta ymmärrettävästi ei kovin engaging. Yksi kehitysehdotus olisi toteuttaa esimerkkikoodien ajo jonkinlaisten (ihmisaivoille hidastettujen) visualisaatioiden kera. Näin algoritmin toiminta selviäisi katsojalle ehkä hieman nopeammin kuin komentorivitulosteilla, erityisesti siinä tapauksessa että sitä ei vielä ajoon mennessä olisi ymmärtänyt.
+* En mitenkään.
+* Enemmän esimerkkejä.
+* Osa tehtävistä tuntui turhan vaikeilta, ehkä ne kaipaisivat enemmän esimerkkejä tms (vaikka ymmärrän toki että vaikeammissa tehtävissä on myös tarkoituksena joutua soveltamaan enemmän).
+* Materiaaliin olisi kaivannut paljon enemmän ja laajemmin esimerkkejä ja muutenkin apua. Kehittäisin kurssia laajasti vähän joka suunnalta.
+* Arvosana rajat ovat melko tiukat. Mielestäni jo esim. 2 saaminen on aika kovan työn takana. Tämä tosin saattaa johtua siitä, että en opiskele tietojenkäsittelyä, niin kurssin asiat ovat keskivertoa vaikeampia minulle.
+* Voisi olla enemmän esimerkkejä materiaaleissa.
+* Olisi hyvä jos suomenkielisissä kurssimateriaaleissa olisi mainintoja englanninkielisiin termiin. Minimimäärä kurssin suorittamiselle voisi olla alempi.
+* en tiedä
+* jotenkin noiden tietorakenteiden ja algoritmien toimintalogiikkaa voisi yrittää visualisoida. Nyt ne on selitetty koodina ja kirjallisesti. Kun esim. ajoi itse harjoitustehtäviä Python visulizerilla niin se auttoi, mutta jonkinlainen graafinen esitys auttaisi ymmärtämään niitä paremmin ennen kuin yrittää toteuttaa. Kurssilla EI myöskään opeteta miten algoritmin suunnittelua kannattaisi tehdä, metodina on vain heittää opiskelijat kylmään veteen tekemään tehtäviä. Voisi ajatella että algoritmien suunnitteluun on joitain työkaluja tai toimintatapoja joilla ongelmaa voi ratkaista ja nyt puhun muusta kuin tietorakenteiden esittelystä. Malliin: Ongelma -> ongelman pilkkominen pienemmäksi -> loogisen ratkaisutapojen listaaminen eri osa-osaongelmiin -> valitun tavan toteutus
+* Vähän ehkä epäsuosittu mielipide mutta prokrastinoijana se, että deadlineja on vain yksi lopussa pisti hirveän kiireen niskaan koska koko kurssin ajan oli ajatellut, että "onhan tässä vielä aikaa"
+* Kurssilla voisi olla enemmän tehtäviä pienemmällä painoarvolla. 
+* Ei kehitettävää
+* Joidenkin kurssin tehtävien ratkaiseminen pelkkien kurssimateriaalien avulla on hyvin haastavaa. Olisi kiva, jos materiaali sisältäisi enemmän esimerkkejä.
+* Luennoilla enemmän teoriasta puhumista ja vähemmän tehtävien ratkomista.
+* Ohjelmointitehtävien tehtävänannot voisivat johdatella enemmän siihen, minkälaisia materiaalista löytyviä tekniikoita kannattaa käyttää.
+* Kurssi oli oikein viihteellinen, tehtävät olivat juuri sopivan 'ärsyttäviä'. Harmillisesti itse en ehtinyt käymään luennoilla vaan keskityin tehtäviin. Syksyllä jo katselin tuota 2 osaa mutta en ehtinyt silloin kunnolla mukaan joten jatkan sitä tässä jahka tehtävät tulevat näkyviin. Tässä ykkösosassa selvästi keskityttiin pythonin perus elementtien kanssa pelaamiseen, ja ison painon näytti saavan tunnettu pythonin listojen hitaus. Sikäli kun 2 osassa jatketaan näiden pythonin perus tyyppien kanssa, ehkä voisi harkita 3. osan toteuttamista missä samoja asioita käytäisiiin läpi käyttäen numpy/scipy/.. kirjastoja koska jos näitä algoritmeja joskus joutuu käyttämään isommassa projektissa nuo optimoidut kirjastot antavat aika paljon työkaluja käyttöön.
+* Kurssin säännöissä olisi ollut hyvä mainita, mitä Pythonin ominaisuuksia saa ja ei saa käyttää (esim. lajittelu, säännölliset lausekkeet).  Vaikeimmissa tehtävissä olisi voinut olla vähän vinkkiä siitä, mistä kulmasta ongelmaa kannattaisi lähestyä. Tehtävänannoissa olisi voinut olla määritelty enemmänkin kriteereitä vastaukselle. Joissain tehtävissä oli annettu aikavaativuus O(1), mikä itsessään antoi jo viitettä ratkaisutavasta.  Materiaalissa olisi voinut vääntää rautalangasta algoritmien toimintaa käymällä niiden vaiheet yksi kerrallaan läpi. Koodista sen tietysti näkee itsekin, mutta esim. animaation upottaminen (tai sellaiseen linkittäminen) verkkosivulle helpottaisi ymmärtämistä.
+* Tehtävänannoissa voisi selkeästi kertoa mikä on suurin sallittu aikavaativuus kyseisen tehtävän algoritmille.
+* Aiempien kurssi-iteraatioiden sivujen perusteella tää mun palautteeni on aika tyypillinen: Kuilu kurssimateriaalien ja tehtävien vaatimustason välillä oli paikoin aika valtava ja epätoivoa aiheuttava. Matemaattis-loogisesti orientoituneille ja algohommiin perehtyneille tehtävät on varmasti haastetasoltaan sopivat, mut meikämanteli kyllä haukkoi henkeä aika usein. Eipä siinä, toisaalta mä kyllä ymmärrän, että kurssin pointti on nimenomaan tällaisen ongelmanratkaisun opettelu. Onks tän tarkoituskin olla sellainen epävirallinen RANK & YANK, LUULOT POIS, SYVÄÄN PÄÄTYYN UIMISTA OPETTELEMAAN -juttu?
+* Kurssin aikataulu oli melko tiivis, kun sisältö ja tehtävät olivat melko haastavia. Tuntui, että aika loppui hieman kesken tehtävien tekemiseen, että voisi saavuttaa itseä tyydyttävän arvosanan. Toisaalta opinnoissa on ja pitääkin olla tiivis tahti, että pääsee eteenpäin kohti seuraavia kursseja.
+* materiaaleja voi aina parantaa yksinkertaisemmisiksi
+* Ei varsinaisia kehitysehdotuksia. Tehtävät olivat hyviä, tukivat oppimista ja olivat sopivan haastavia. Katsoin kurssin videoluennot, myös nämä olivat hyödyllisiä ja selvensivät asiaa. Myös se, että nämä pystyi katsomaan itselleen sopivaan aikaan auttoi.
+* Viikko 3 tehtävä Osinko oli minulle epäselvä, sen ohjeistusta voisi selkeyttää.
+* Mielenkiintoinen kurssi ja hyvät materiaalit, luennoilla oli selkeitä esimerkkejä ja verkko-ohjausta oli helposti saatavilla, ongelmat johtuivat lähinnä siitä, ettei ole itse luonnonlahjakkuus asiassa (mutta siksihän juuri kurssille on tultu oppimaan ja harjoittelemaan...). MOOC-toteutus oli erittäin kätevä, kun kurssin voi suorittaa täysin etänä avoimen yliopiston kautta.
+* Mielestäni oppimateriaaleissa olisi hyvä antaa enemmän esimerkkejä, jotka helpottaisivat tehtävien ratkaisemista.
+* Olisi kiva tietää aina oman algoritmin suoritusaika verrattuna oikean vastauksen suoritusaikaan. Tehtävien koodipohjat voisivat olla sellaisia, ettei Python herjaa syntax erroria aina kun koodi liitetään omaan editoriin. Eli siis pari "pass" lausetta voisi laittaa vaikka koodipohjiin valmiiksi. Discordissa neuvojat antavat hyvät vinkit tehtävissä. Tosin jos yleisiä vinkkejä voi näin antaa, tuntuisi loogiselta että vinkin voisi myös liittää suoraan tehtävään, ja vaikka piilottaa sen jonkin napin tai linkin taakse jos haluaa ensin yrittää tehdä tehtävän ilman vinkkiä.
+* Ei tule mitään mieleen.
+* Ehkä enemmän kokonaisia esimerkkejä materiaaliin. Tehtävänannot olivat selkeitä ja niihin oli panostettu mikä oli hyvä.
+* Tehtävät oli hyviä, niissä voisi olla enemmän vinkkejä ja teoriaa miten ne kannattaisi suorittaa
+* Hyvinkin antoisa kurssi loppujen lopuksi. Ulkopuolisena olisin ehkä toivonut hyvinkin basics-juttuja, mutta kyllä näistä selviää. Ison avun sai kurssitovereilta ja mielestäni ryhmää voisi integroida opiskeluunkin. Sieltä oppi ylivoimaisesti eniten ja kokemus vastuusta työpanokseen oli ihan erilainen, ihan vain keskustellessa. Samalla inspiroitui hirveästi.
+* en osaa sanoa
+* en tiedä
+* Mielestäni kurssi toimi hyvin, kiva että sai tehdä itsenäisesti mutta apua sai tarvittaessa.
+* Mielestäni kurssin materiaalit ovat paikoin epäselvät. Tehtävät vaikeutuvat myös aika yllättävästi.
+* Jotkut tehtävät olivat todella vaikeita suhteessa toisiin. Esimerkiksi robosame tehtävä oli mielestäni paljon vaikeampi kuin minkään muun viikon viimeinen tehtävä. Tehtävien vaikeustasoa voisi ehkä tasapainottaa vähän ja vaikeimmat tehtävät siirtää kurssin loppupuolelle.
+* Materiaaliin enemmän esimerkkejä kunkin aiheen erilaisista sovelluksista.
+* Kurssitehtävät voisivat olla ehkä selvempiä. Joissakin tehtävissä tehtävänanto oli niin niukkasanainen ja monitulkintainen että tuntui etten melkein millään ymmärtänyt että mitä minun tulee tehdä, tai ainakin sai käyttää huomattavasti aikaa ennen kuin edes pääsi jyvälle siitä, mitä tehtävänannossa oltiin ajettu takaa.
+* Suurin osa tehtävistä vaati todella paljon kurssimateriaalin ulkopuolista tiedonhakua ja etsimistä.
+* N/A
+* Opetusmateriaalit ovat paikotellen hyvin vaikealukuisia, johtuen niiden tiiviydestä. Esimerkiksi rekursiota käsitellessä ei oikeastaan selitetä, miten tai miksi rekursio toimii. Mielestäni olisi hyvä, jos sitä väännettäisiin rautalangasta, jotta opiskelijat ymmärtävät mitä siinä tapahtuu ja jotta rekursiivisten algoritmien implementointi olisi helpompaa. Esimerkit, joita kurssilla annettiin tosin ovat todella hyvät varsinkin viikon ensimmäisten tehtävien ratkaisemiseen, sillä niissä on yleensä hyvin selitettynä pääideat viikon tehtävien takana.
+* Harkitsisin tehtävistä saatujen pisteiden suhteuttamista tehtävän vaikeuteen. Vaikeammasta tehtävästä saisi enemmän pisteitä kun helpommasta.
+* Osa kurssin alkupuolen tehtävistä olivat selkeästi hankalampia, kuin loppupuolella. Mielestäni osa viikon 6 tehtävistä kuuluisi kurssin alkupäähän, kuten funktiot joiden tehokkuus on O(1)
+* Tämän ratkaiseminen lienee vaikeaa, mutta mielestäni kurssilla pitäisi jotenkin pitää huolta siitä ettei kurssia voi suorittaa ainoastaan tekoälyn avulla ainakaan hyvillä arvosanoilla.
+* Hankala sanoa
+* Kurssi on alkuun aika helppo, sitten hyppää 4. viikon kohdalla aivan sairaasti ja sitten helpottuu taas. Muilla kursseilla taso alkaa melko helppona, että heikommillakin taidoilla pääsee mukaan ja taso kasvaa graduaalisesti - materiaalia muokkaamalla saa jo useita tehtäviä tehtyä ja samalla oppii koko ajan. Itse en saanut materiaalista kiinni, että miten ko. viikkojen tehtäviä pitäisi ratkaista tai miten hajautuksesta ja sorttauksesta (jotka jo tunsin entuudestaan) oikein on edes apua ratkaisussa. Toki niitä piti käyttää, mutta itse algoritmin tekeminen oli aivan hepreaa.  En myöskään ymmärrä, että johonkin aika-arvoihin käytetään todella paljon aikaa (mielestäni aika yksinkertainen asia), mutta tehtäväksi lyödään eteen joku Kadanen algoritmi. Miksei vaan opeteta, että tässä on listat ja hashit, tässä binäärihaku ja tässä sliding window ja niitä käytetään näin. Sitten opittu testataan tehtävillä, näinhän joka ainoaa muuta asiaa opetetaan?  Mielestäni tehtävät voisivat olla helpompia, mutta niitä voisi olla enemmän, jotta olisi oikeasti mahdollisuus oppia. Itse väänsin joitain tehtäviä päiviä ja en todennäköisesti osaisi enää ratkaista samaa tehtävää tai muista edes mitä tein. En myöskään varmaankaan osaa kirjoittaa parempaa koodia, mitä nyt ehkä nyt tiedän, että kannattaa käyttää sanakirjaa mieluummin kuin listaa.  Monissa algoritmiongelmissa tarvitaan tehtävän jakamista pienempiin osiin. Miksi sitten ei ole vaikka tehtäväsarjaa, jossa useassa tehtävässä pilkotaan algoritmi osiin ratkoen se pala kerrallaan, lopulta viimeisessä tehtävässä saadaan ratkaistua kokonainen isompi ongelma yhdistämällä eri osiot? Muilla kursseilla (koodaus I ja II esim.) on toimittu näin ja mielestäni se on aika paljon parempi tapa oppia.  Toki huijaamisen mahdollisuus on aina ja helpommat tehtävät mahdollistavat sen paremmin, mutta on yliopisto-opiskelijalla on joku vastuu omasta oppimisestaan. Vastaukset on varmasti voinut aiemminkin löytää googlella ja jos opiskelija haluaa tulla taitavaksi googlettajaksi tai AI:n käyttäjäksi sen sijaan, että oppisi oikeasti, niin omapahan on asiansa. Sen edestään löytää sitten.  Kritisoidakseni itseäni, en käynyt parin ensimäisen viikon jälkeen luennoilla työkiireiden takia ja se varmasti kostautui, koska niistä luennoista millä kävin, oli apua.
+* En keksi mitään lisättävää, kurssi on erinomainen, vaativuustaso sopiva ja tehtävät sopivan haastavia. Algoritmeja oppii koodaamalla algoritmeja.
+* Ehkä discord tukea voisi jotenkin helpottaa, mutta miten, siinäpä kysymys. Joskus näkee, että opiskelija on aivan jumissa, mutta apu jää sormia hipoen ulottumattomiin. Vaikea kysymys, koska liika auttaminen voi jättää yrityksen passiiviseksi eikä oppimista tapahdu.
+* ilmoittautuminen kurssin alkutehtäviin, tuli turha paniikki
+* Todella mielenkiintoinen kurssi, materiaalit ja esimerkit auttoivat tehtävien ratkaisussa. Hyvin linjassa muiden Mooc kurssien, kuten Ohjelmointi 2 kanssa. 
+* Materiaalissa enemmän esimerkkejä.
+* Olisi helpompi jos CSES-järjestelmään ei tarvitsisi kirjautua joka kerta uudestaan vaan se muistaisi kirjautumisen
+* Pidin kurssista paljon, erityisesti CSES-alusta tuntui toimivalta.
+* tosi hyva!
+* Tehtävien määrä on aika raskas ottaen huomioon että 5 op kurssi, mutta erinomaiset kurssimateriaalit auttaa niissä paljonkin. Ehkä tehtävien määrän pienentäminen ja pienen loppuprojektin lisäys voisi olla toimiva ratkaisu?
+* Kurssimateriaali oli aika niukka, enkä itse löytänyt siitä tarpeeksi tukea tehtävien tekemiseen. Luennot eivät myöskään olleet erityisen informatiivisia.  Mielestäni 5/8 tehtävää jokaiselta viikolta on myös turhan jyrkkä vaatimus läpipääsylle arvosanalla 1, sillä tehtävien vaikeustaso nousee joillain viikoilla suht helposta mahdottomalta tuntuvaan ihan parissa tehtävässä. Ehkä 4/8 per viikko olisi ollut hieman inhimillisempi? Itse koin tehtävät joskus jopa erittäin vaikeiksi, etenkin kun ainoa ohjelmointikokemukseni on OHPE- ja OHJA kurssit, joista oppimani perustaidot eivät tuntuneet riittäviltä tehtävien sujuvaan ratkomiseen.
+* Tehtävissä ja tehtävätyypeissä voisi olla enemmän variaatiota.
+* Arvosanarajat olivat mielestäni liian tiukat siihen nähden, että tehtävätkin olivat vaikeita. Viikon 3 tehtävän 7 (Laskut) automaattiseen tarkastukseen oli ilmeisesti tullut vahingossa vähän liian tiukat aikakriteerit (tai liian isot testisyötteet), koska se ei meinannut mennä millään läpi (ja aika varmasti myöskään sen malliratkaisut eivät ole riittävän nopeita läpäisemään automaattista tarkastusta). Samoin viikon 4 tehtävän 4 (Kierrosten tehokkuus) tehtävänantoon oli ilmeisesti tullut epähuomiossa liian iso syöte, kun sen suoritus ei valmistunut edes 5 min:ssa kurssimateriaalista kopioiduilla koodeilla.
+* Puolivälissä jonkinlainen välipalautus, jotta tehtävien ratkomiseen olisi enemmän motivaatiota jo kurssin alussa.
+* Ehkä lisäämällä esimerkkejä tai teoriaa materiaaliin mukaan. 
+* Melko työläs kurssi sanoisin. Se ei ole missään tapauksessa huono asia. Monimuoto-opetuksen tuki on vähän haastava järjestää joskin mielestäni Discord kanavalla sai välillä ihan hyvin apua. Tietorakenteiden käyttötarkoituksia voisi ehkä miettiä tarkemmin eli esim. mitä rakenteita kannattaa käyttää mihinkin tarkoitukseen. Sitä oli jonkun verran noissa O(1) tehtävissä mutta yleisesti asiaa voisi lähestyä suorituskykymielessä eli esim. jonkun algoritmin "karvalakkiversio" jota pitää parantaa käyttämällä aiheeseen paremmin soveltuvia tietorakenteita. 
+* Sain tehtyä kurssimateriaalien avulla ja ilman (mm. Discord) muita neuvoja n. kolmessa viikossa 60 tehtävää, joten todella vaikea keksiä mitään kehitettävää. 
+* Tämä kurssi oli tosi mukava suorittaa ja sopivan haastava. Ehkä kehittäisin etänä saatavan tuen mahdollisuutta. Esim. jotkut vapaaehtoiset zoom-harjoituspajat olisivat tosi hyvä live-harjoituspajojen rinnalla. 
+* Toivoisin tehtävän antoihin myös toista tapaa miten tehtävä avataan, lukihäiriön takia useassa tehtävässä kävi niin etten aluksi ymmärtänyt oikein tavoitetta. Lisäksi sain idean visuaalisemmasta tehtävän annosta, jossa olisi yksinkertainen visuaalisaatio mitä tavoitellaan, mutta visuaalisaatio ei anna vastausta, koska monessa tehtävässä esim. Viikko 6 tehtävissä visuaalisuudesta ei juuri hyötyisi vastauksessa mutta ymmärtäisi selkeästi tavoitteen. Kiitos hyvästä kurssista!
+* enemmän esimerkkejä
+* Esimerkkejä voisi olla enemmän
+* Hieman enemmän esimerkkejä/ohjeita materiaaliin.
+* Ehkä enemmän esimerkkei olisi kiva saada kurssimateriaaleis :D
+* Hyvää sisältöä! Mutta kehitysehdotuksena että mielestäni _pelkkä_ ratkaise "loogisesti tehtävän ongelma + ota huomioon siihen asti esitellyt ratkaisumenetelmät" -tehtävien teko ei ehkä parhaalla tavalla auta oppimista tai valaise sitä. Olisiko resurssien puitteissa mahdollista miettiä myös muita tehtäviä? ei nyt varmaan esseitä mutta automaattisesti testattavien tehtävien varioimista esim. niin että pitää tehdä itse sama ratkaisu sekä hitaalla että nopealla tavalla tms. jossa vielä noi eri aikatehokkuudet käy konkreettisemmin selville.  Tai jotain tyyliin "tee tästä valmiista ratkaisusta aikatehokkaampi" tms.  Lisäksi pieni juttu: voisiko tehtävät numeroida viikon sisällä ja/tai huolehtia siitä ettei tule samaa tehtävänimeä/funktionimeä kahteen kertaan! myös jos mahdollista ladata tehtäväpohjat TMC:n kautta niin plussaa. nyt tohon käytännön säätöön meni välillä turhaan aikaa ja sekoili tehtävissä. 
+* Ehkä lisää tehtäviä?
+* Pientä turhautumista meinasi aiheuttaa, kun jonkun tehtävän läpimeneminen oli kiinni siitä, käyttikö lähetyksessä CPython3 vai Pypy3 -vaihtoehtoa. 
+* Kurssitehtävät tuntuivat liian raskailta jos ne halusi tehdä kunnolla (huolella ymmärtäen). Työmäärä tehtävään kohti oli aika suuri koska kurssimateriaalissa ei aina ollut tehtävään soveltuvia esimerkkejä. Tämä ja kurssimateriaalien ulkopuolisten lähteiden käyttökielto teki tehtävistä usein liian raskaita.
+* Tehtävät olivat hyvin mielenkiintoisia, joten niihin voisi linkata lisämateriaalia kiinnostuneille
+* Osa tehtävistä (jotkut osioiden viimeisimmät) olivat liian haastavia / aikaavieviä muihin nähden, enkä tiedä miten niiden ratkaisussa olisi pitänyt lähteä liikkeelle kun kurssimateriaalista ei ole apua.
 
 ### Muita huomioita
 
-* Suurin osa tehtävistä aukesi sopivasti opetusmateriaalin ja lisätietohakujen avulla, mutta jos joku asia jäi niidenkin jälkeen epäselväksi, niin se sitten jäikin pimeäksi. Osan tehtävistä jouduin ratkaisemaan rumasti säätämällä löytämiäni algoritmeja yritys ja erehdys -mallilla. Pahimmillaan ei syntynyt lainkaan oivallusta. Eikä palautuksen jälkeinen analyysiosuus ja malliratkaisu auttanut asiaa, kun siellä saattoi olla aivan eri logiikka. Voi olla vain minun rajoittunutta kapasiteettiäni, mutta osaan asioista jäin kaipaamaan lisää selityksiä...
-* Tykkäsin paljon, nyt vihdoin ymmärrän minkälaista menettelytapaa käytän erilaisissa ongelmissa.
-* Ei paljoa muuta huomioitavaa.
-* Haluan vielä palata tekemään lisää tehtäviä, kunhan ensin saan tikape-kurssin tehtävät hoidettua.
-* Hyväksytty/Hylätty kokeilu ei ainakaan itseäni innosta yrittämään enempää. Koen, että 1-5 arviointi on tehokkaampi ja paremmin osaamista mittaava.
-* Hyvä kurssi, kiitos!
-* Kannatan itsenäistä opiskelua mahdollistavia kurssikokonaisuuksia, mutta ne myös tarvitsevat sitä hyvin tukevaa materiaalia. Mielestäni kurssin materiaali on liian kepeä ja ylimalkainen itsenäisellä työllä oppimiseen.
-* Viikon 2 tehtävän Eri summat pystyi ratkaisemaan palauttamalla listan [1, 2, 3, ..., n].
-* Kurssi opetti aivan uudenlaista ajattelua ja oli kokonaisuutena minusta onnistunut.
-* Olisi hyvä jos tira2-kurssia voisi alkaa saman tien suorittamaan tähän perään. Pakollinen 1.5kk odotus ei välttämättä ole paras vaihtoehto oppimisen kannalta.
-* Tirakirjan voisi linkata netti materiaalissa.
-* Discord on mainio!! Kiitos assareille avusta!
-* Jokaisen viikon viimeiset 1-2 tehtävää tuntuivat todella vaikeilta peilaten kurssimateriaaliin. Tuntui että kurssimateriaalissa ei ollut sinne päinkään vastaavaa esimerkkiä, ja kurssin pelisäännöissä melko tiukasti kiellettiin etsimästä apua kurssimateriaalin ulkopuolelta. Yleensä arvosanaan 5 on riittänyt, että opiskelee kurssimateriaalia tarkasti ja harjoittelee tehtäviä, mutta tässä täytyi kyllä ihan hyvän onnen avulla edetä välillä. Ehkä jokin osa kurssimateriaalista oli jäänyt itseltä huomioimatta, tai Johdatus Yliopistomatematiikkaan -kurssista oli kulunut turhan pitkä aika. Iso etu tietysti olisi jos ei olisi avoimen opiskelija, vaan olisi osa opiskelijayhteisöä jolloin apua voisi kysyä assarilta tai tehtävän läpäisseeltä. Tällä kertaa tosin kurssi oli arvosteltu asteikolla hyväksytty/hylätty, joten tavallaan kellekään ei aiheudu "haittaa" siitä että vaikeimmat tehtävät olivat, tai ainakin itselleni tuntuivat olevan, kurssimateriaalin ulkopuolelta. Vaadittavat 5 tehtävää per viikko olivat helppoja, jos kurssimateriaalin oli käynyt läpi. 
-* Pidin erityisesti arvosteluasteikosta. En kokenut kurssia kovin vaativaksi, niin se sopii tähän kurssiin hyvin. Toisaalta jos käytössä olisi ollut normaali arvostelu, työmäärä olisi noussut merkittävästi koska viimeiset tehtävät joka viikolta tuntuivat paljon vaikeammilta kuin ensimmäiset.
-* Kurssi oli mukavampi suorittaa hylätty/hyväksytty asteikolla, sillä se vähensi ahdistusta siitä, että täytyisi osata kaikki tehtävät, jotta saa hyvän arvosanan ja täten jäi enemmän aikaa olennaiseen.
-* Vaikka kurssi olikin raskas suorittaa, jäi siitä kuitenkin itselle käteen paljon mielenkiintoisia ja uutta. Tästä on hyvä jatkaa kohti Tira 2 kurssia!  Kiitos vielä tästä kurssista.
-* Kurssin viikoittaisten tehtävien vaikeusasteen muutoksen olisi toivonut olevan lineaarisempi. Nyt tehtävien vaikeusaste tuntui noudattavan viikosta toiseen samaa kaavaa; ensimmäiset ~3 tehtävää olivat usein helpohkoja, ja loput eksponentiaalisessa kulmassa kohoten toinen toistaan vaikeampia. Vaikeutuminen on tietysti subjektiivista, mutta (henkilökohtaisesti) ehdottaisin vaikeutumiskäyrän kohoavan hieman maltillisemmin. Jopa vaikka niin, että samalla jos loppupään tehtävien vaikeustasoa hieman laskisi niin alkupään tehtävien puolestaan nostaisi. Syy tälle ehdotukselle on se, että vaikeusasteen muutosten ollessa maltillisempia opiskelijoilla voisi olla todennäköisemmin enemmän onnistumisia ja sen myötä motivaatiota yrittää oppia aina seuraavaan tehtävään vaadittu lisätieto, ja näin ollen eteneminen myös vaikeimpiin tehtäviin kävisi pienemmin harppauksin.
-* Hyväksytty-hylätty-arvosteluasteikko tuntui helpottavalta! Jos kurssi olisi arvosana-asteikolla 1-5 olisi se tuntunut todella raskaalta, kun olisi tavoitellut mahdollisimman korkeaa arvosanaa. Nyt oli helpottavaa opetella viikkojen aiheita ilman, että tarvitsi tajuta jokaikistä tehtävää ja mietiskellä huvikseen "ylimääräisiä" tehtäviä tai valikoida sieltä niitä tehtäviä, joista sai nopeasti ideasta kiinni.
-* Tykkäsin kurssista paljon ja haastavat tehtävät pitivät mieleni kiireisenä. Kiitos!
-* Kiitos, hyvä kurssi.
-* Vähän enemmän voisi olla esimerkkejä materiaalissa.
-* Hyväksytty/hylätty-arvosteluasteikko söi itseltä melko paljon motivaatiota tehdä kaikki mahdolliset tehtävät, varsinkin kun kurssin kanssa tuli hieman kiire. Iso kiitos siitä, että kurssin voi suorittaa täysin itsenäisesti!
-* Minulla meni kauan ennen kuin tajusin mikä on osajono yms. Jatkossa voisi esimerkiksi lisätä englanninkielisen nimen siihen lisäksi, että pystyis esimerkiksi hakea youtubesta videoita ja opiskella lisää aiheesta itsenäisesti. Tämä arviointitapa (hyväksytty/hylätty) oli itselleni huomattava helpotus. En usko, että olisin tehnyt kurssia loppuun, jos olisin tiennyt tästä naksahtavan 1 kiitokseksi (sillä hyvin vahvasti uskon, etten olisi saanut sen enempää tehtäviä tehtyä. Ei riittäisi paukut.) Olen hyvin huolissani 2 kurssista.  Kiitos tästä kurssista! Uskon, että minulle on jäänyt enemmän käteen kuin se tällä hetkellä tuntuu. Tehtävät olivat (jotkut niistä) myös mukavia ja onnistumisen tunne oli mieletön, kun joku loksahti paikalleen. 
-* Kurssimateriaali oli erittäin selkeä ja johdonmukainen, ja Discordista saatu tuki oli todella hyvä!
-* Nyt kun olen tehnyt kolme ohjelmointikurssia itseopiskeluna verkkomateriaalilla, tarve henkilökohtaiselle ohjaukselle tai jonkinlaisessa vertaisryhmässä ohjelmoimiselle alkaa selvästi kasvaa. Myös tuntuu siltä että näpräillään pienten ohjelmointiongelmien parissa, mutta isomman kokonaisuuden hallintaa minulla ei ole lainkaan. Joku hiukan isompi ohjelmointiprojekti ryhmän kanssa voisi tässä kohtaa opintoja lisätä itseluottamusta. Sanottakoon kuitenkin että olen edistynyt valtavasti ohjelmointitaidossa tähän mennessä suoritetuissa opinnoissa, ja algoritmikurssi oli sopivan vaativa.
-* Kurssin esitietovaatimuksena lukee Johdatus yliopistomatematiikkaan tai vastaavat tiedot. Minun matemaattiset tietoni ovat 20 vuotta sitten kirjoitettu lukion lyhyt matematiikka, joten siihen nähden olen yllättynyt, että meni näinkin kivuttomasti läpi. Toki ohjelmointikokemus varmasti auttaa asiaa.
-* Vaikea aihe ja vaikeita asioita, huh. 
-* \* Erittäin hyvä, että kaikki tehtävät sai kerralla (ilmeisesti näin ei aiemmin ollut) * Matematiikan kurssin voisi poistaa vaatimuksista (tehtävät vaativat minusta päättelyä, ei matematiikkaa, en ole itse käynyt sitä ja hyvin pärjäsin)
-* Pidin kurssista ja mielestäni oli hienoa miten näin suhteellisen lyhyet materiaalit antoivat minulle mahdollisuuden oppia täysin uusia koodaamisen alueita. En esimerkiksi ollut ikinä koodaillut verkkoalgoja, mutta opin nyt käyttämään ja soveltamaan niitä myös työssäni. 
-* Moni esitelty algoritmi/menetelmä jää hyvin irralliseksi. Omasta mielestäni olisi parempi, jos osaamista pikku hiljaa rakennettaisiin aikaisemman päälle, eikä aihe vaihdu viikottain, jopa tehtävittäin.
-* Ihan kiva kurssi, opin paljon uutta. Erityisesti aikavaativuus oli minulle alusta alkaen uusi asia ja opin tekemään ja analysoimaan tehokkaita algoritmeja.
+* Erityiskiitos ystävälliselle ja kärsivälliselle pajaohjaajalle, joka ei saanut minua tuntemaan oloani tyhmäksi edes silloin, kun selitti samaa asiaa kymmenettä kertaa eri tavoilla :) Pajasta oli helppo kysyä apua matalalla kynnyksellä.
+* Osa alkuviikkojen tehtävistä tuntuivat hankalilta ottaen huomioon, että aloitti vasta kurssin.
+* en osaa sanoa
+* Kiitos aivan loistavasta kurssista! Teoria oli hyvin esitetty ja tehtävät ihan huippuja! Tehtäväsarjat oli taitavasti rakennettu niin, että ne alkoivat helpohkoilla tehtävillä ja tehtäväsarjojen viimeisiä tehtäviä sai ihan tosissaan miettiä. Kurssi oli ihan 5/5.
+* Hyvä kokonaisuus kaiken kaikkiaan. Koin että minulla on paremmat valmiudet ymmärtää miten algoritmeja voidaan miettiä ja minkälaisia strategioita niiden tekemiseen voidaan käyttää. Kiitos kurssista!
+* Hyvä ja selkeä kurssimateriaali, mielenkiintoisia tehtäviä
+* Tehtävät olivat hyvin tasapainossa luentojen ja materiaalin kanssa.  Tällä kerralla tosiaan aloin ymmärtää näitä juttuja. Luentojen toteutus oli erinomaista tasoa. Hyää oli rauhallinen esitystapa, tallennuksia kuuntelevien opiskelijoiden huomioiminen siten, että luennoitsija toisti salista tulleet kysymykset selkeästi.  Myös luennoilla esitetyt esimerkkikoodaukset erinomaisen hyvin suunniteltu ja toteutettu. Huippukurssi kaikenkaikkiaan, harmittaa ettei tarvinnut maksaa :) 
+* Materiaalit eivät aina tukeneet tehtäviä. Riittävästi
+* Kiitos kurssista!
+* Antin luentoja on erittäin miellyttävä seurata. Pidän hänen kyvystään selittää hankalammatkin asiat ymmärrettävästi ja selkeästi. Lisäksi erityiskiitos Discord-kanavan Joelille, jonka vinkit olivat muutamassa tehtävässä kullan arvoisia.   Kokonaisuudessaan kurssista jäi erittäin positiivinen fiilis ja koen, että olen taas hieman taitavampi ohjelmoinnissa. Odotan toista osaa innolla!
+* Pidin erityisen paljon kurssista :). Pidin myös paljon viimeisen luennon soveltavasta sana-verkko esimerkistä. Tykkäsin myös materiaalin vähäisyydestä, minkä ansiosta pääsi tekemään tehtäviä ja oppimaan niiden kautta nopeasti.
+* N/A
+* 5 tehtävää / sarja läpipääsyvaatimuksena yhteisellä viimeisellä deadlinella oli ainakin itselle mieluisan stressitön kokemus.
+* oli ihan kivaa
+* Kurssin Discord oli oman oppimisen kannalta todella hyödyllinen.
+* Erityiskiitos Discord-kanavasta. Ohjaus on erittäin aktiivista ja auttaa tehtävissä paljon.
+* Tuntuu, että opiskelija heitetään syvään päätyyn ja ollaan, että pärjäile. Onneksi on muita tapoja oppia, kuin Helsingin yliopiston järjestämä ''opetus''. Kun kurssista on jutellut opiskelijakavereiden kanssa, niin moni on tuonut esille, miten kurssi sai tuntemaan itsensä huonoksi ja jotkut jopa sanoivat, että kurssin takia mietti kokonaan, että onkohan tämä ala minua varten vai pitäisikö lopettaa. Hyvä, että ihmiset ovat jakaneet näitä tuntemuksia, mutta kertoo ehkä kurssin toteutuksesta, jos noinkin ikäviä tunteita tuo opiskelijoilla pintaan...
+* Kiitos kurssista! Toista kertaa tekemässä ja korottamassa, tehtävät ovat mielenkiintoisia ratkottavia.
+* Muuten ei mielestäni ollut mitään huomioitavaa :)
+* Kurssi oli selvästi haastavampi kuin aiemmat kurssit. Tehtävät olivat vaativampia kuin aiemmilla tietojenkäsittelytieteen peruskursseilla. Etenkin alkuun tuntui haastavalta oppia tekemään tehokkaita algoritmeja, joissa esim. tietorakennetta ei käydä moneen kertaan läpi, tai välttää sellaisia toimintoja, joita esimerkiksi ohjelmoinnin perus- ja jatkokursseilla "sai" käyttää. Mutta tämä oli opettavaista ja hyödyllistä, ja vähitellen alkoi oppia tätä "uutta" koodaustapaa. Kurssilla oli hyvä, että luennoista tuli tallenne, ja kurssin tehtävät sai hyvin tehdä oman aikataulun mukaan. Tehtävät avautuivat myös hyvään tahtiin, sillä tehtävät veivät aikaa.
+* Aikataulu työmäärään nähden hieman liian tiukka, etenkin kun pisterajat niin korkeat.
+* Hyvä kurssi!
+* Suuri kiitos Discordin neuvojilla hyvästä avusta ja päivystyksestä 👍
+* Kiitos kurssista!
+* Minulla oli muutama tehtävä, jotka jotain muutamaa testiä lukuunottamatta sain toimimaan, mutten pitkänkään yrittämisen jälkeen onnistunut saamaan koodia täydelliseksi. Tämä oli vähän ikävää, kun käytti pitkän ajan koodin tekoon, eikä siitä loppujen lopuksi saanut mitään pisteitä.
+* Pajat ovat hyviä!
+* Jos kurssilla on esitietovaatimuksia, niin nämä olisi kiva tietää etukäteen ettei kysyessä tule sellainen olo, että nämä asiat pitäisi jo tietää ja, että ne eivät kuulu tälle kurssille.
+* Todella hienoa, että deadlinet pidetään loppuun saakka kaikille viikoille. Helpottaa paljon opiskelijoita jotka tekee opintojen ohella täysaikaisesti töitä! Myös testicaset mitä voi suorittaa omalla koodilla ovat olleet erinomaisia, yleensä jos ne läpäisee niin tehtävä mennyt kaikista checkeistä läpi (aika lokaalit checkit ollut huonoja kursseilla)
+* Sen verran vielä tarkennan, että jotkin kurssin tehtävät olivat hyvin haastavia, mutta kun niistä periaatteessa selviää kurssimateriaalilla, niin kyseessä on sopivan haastavat tehtävät. Äärimmäisen mielenkiintoinen ja varmasti tarpeellinen kurssi, josta erikseen vielä kiitokset! 
+* Hyvä kurssi, oppi käytännön suorittamisesta paljonb
+* Kehittäisin tätä kurssia, jotta se ei tuntuisi niin raskaalta ja stressaavalta. Ennen kurssin alkua jo vanhemmat opiskelijat varoittelivat tästä kurssista ja siitä, miten raskasta ja vaikeaa se tulisi olemaan. Alusta asti tavoitteena on ollut päästä vain läpi, vaikka normaalisti tavoittelen oikeasti hyvää arvosanaa. En koe, että kurssin toteutustapa ja tehtävät tukivat oppimistani ja algoritmien ymmärtämistä, mutta onneksi sain apua opetukseen läheisiltä..
+* Mielestäni osa tehtävistä tuntui irrallisilta kurssin sisällöstä. Hyvä esimerkki tästä on viikon kaksi tehtävä "kaksi samaa".
+* Kokemukseni kurssista vaihteli suuresti riippuen kyseisen viikon tehtävistä. Jotkut tehtävät olivat ihan mukavia ja niiden ratkominen tuntui tuottavan kehitystä, toisten viikkojen tehtävät taas saattoivat tuntua enemmän kiusaamiselta, etenkin ottaen huomioon kurssin absoluuttisen alarajan ratkotuille tehtäville. 
+* Kurssi on sen verran työläs että kurssin aikataulun puitteissa ei ehtinyt tekemään kaikkia tehtäviä vaikka ne todennäköisesti saisi tehtyä jos aikaa on enemmän
+* Ylipäätään hyvä kurssi!
+* Mainio pohja opetukselle. Mutta ehkä edellä mainittua variaatiota voisi olla enemmän.
+* Mukavan haastavia tehtäviä. Koin oppivani paljon. Kiitos kurssista!
