@@ -14,7 +14,7 @@ AVL-puun tasapainoehtona on, että jokaisessa solmussa vasemman ja oikean alipuu
 
 Seuraavassa kuvassa vasemmassa puussa tasapainoehto on voimassa, mutta oikeassa puussa se ei ole voimassa, koska solmussa $$3$$ vasemman alipuun korkeus on $$0$$ ja oikean alipuun korkeus on $$2$$.
 
-![](avl_1.png)
+![](img/avl_1.png)
 
 Tasapainoehdon hyötynä on, että sen ansiosta solmut jakautuvat tasaisesti eri puolille puuta ja puun korkeus on $$O(\log n)$$. Tämä voidaan perustella laskemalla, miten solmujen määrä vaikuttaa puun korkeuteen.
 
@@ -40,7 +40,7 @@ Koska tasapainoehto liittyy alipuiden korkeuksiin, hyvä ratkaisu on tallentaa j
 
 Jos puun tasapainoehto rikkoontuu, asia voidaan korjata tekemällä sopivanlaisia kiertoja puussa. AVL-puun kierrot ovat seuraavat:
 
-![](avl_k.png)
+![](img/avl_k.png)
 
 Tässä $$x$$ ja $$y$$ ovat puun solmuja ja $$A$$, $$B$$ ja $$C$$ ovat alipuita. Kierto voidaan tehdä vasemmalta oikealle, jolloin $$y$$ nousee $$x$$:n yli, tai oikealta vasemmalle, jolloin $$x$$ nousee $$y$$:n yli. Näiden kiertojen avulla voidaan muuttaa alipuiden korkeuksia. Toisaalta kierrot säilyttävät solmut binäärihakupuun järjestyksessä.
 
@@ -56,23 +56,23 @@ Solmut $$y$$ ja $$z$$ ovat samanpuoleisia lapsia. Tässä tapauksessa tehdään 
 
 Esimerkiksi seuraavassa kuvassa solmut $$y$$ ja $$z$$ ovat oikeanpuoleisia lapsia. Tällöin solmun $$y$$ vasemmaksi lapseksi tulee $$x$$ ja oikeaksi lapseksi tulee $$z$$.
 
-![](avl_2.png)
+![](img/avl_2.png)
 
 Jos solmut $$y$$ ja $$z$$ ovat vasemmanpuoleisia lapsia, sama kierto tehdään käänteisesti.
 
 Tarkastellaan esimerkkinä seuraavaa puuta:
 
-![](avl_e1.png)
+![](img/avl_e1.png)
 
 Kun puuhun lisätään alkio $$9$$, sen paikka valitaan ensin kuten tavallisesti binäärihakupuussa:
 
-![](avl_e2.png)
+![](img/avl_e2.png)
 
 Lisäämisen jälkeen kuljetaan ylöspäin lisätystä solmusta juureen. Lisääminen rikkoi tasapainoehdon, koska juuressa vasemman alipuun korkeus on $$0$$ ja oikean alipuun korkeus on $$2$$. Tässä $$x=3$$, $$y=7$$ ja $$z=8$$.
 
 Korjataan tilanne tekemällä kierto, jossa solmu $$7$$ nostetaan solmun $$3$$ yli:
 
-![](avl_e3.png)
+![](img/avl_e3.png)
 
 Tämän kierron jälkeen puu on jälleen tasapainoinen.
 
@@ -82,27 +82,27 @@ Solmut $$y$$ ja $$z$$ ovat eripuoleisia lapsia. Tällöin tehdään kaksi kierto
 
 Esimerkiksi seuraavassa kuvassa solmu $$y$$ on oikeanpuoleinen lapsi ja solmu $$z$$ on vasemmanpuoleinen lapsi. Tällöin solmun $$z$$ vasemmaksi lapseksi tulee $$x$$ ja oikeaksi lapseksi tulee $$y$$.
 
-![](avl_3.png)
+![](img/avl_3.png)
 
 Jos solmut $$y$$ ja $$z$$ ovat eri päin, samat kierrot tehdään käänteisesti.
 
 Tarkastellaan esimerkkinä seuraavaa puuta:
 
-![](avl_e1.png)
+![](img/avl_e1.png)
 
 Kun puuhun lisätään alkio $$6$$, sen paikka valitaan ensin kuten tavallisesti binäärihakupuussa:
 
-![](avl_e4.png)
+![](img/avl_e4.png)
 
 Lisäämisen jälkeen kuljetaan ylöspäin lisätystä solmusta juureen. Lisääminen rikkoi tasapainoehdon, koska juuressa vasemman alipuun korkeus on $$0$$ ja oikean alipuun korkeus on $$2$$. Tässä $$x=3$$, $$y=7$$ ja $$z=5$$.
 
 Tehdään ensin kierto, jossa solmu $$5$$ nostetaan solmun $$7$$ yli:
 
-![](avl_e5.png)
+![](img/avl_e5.png)
 
 Tehdään sitten kierto, jossa solmu $$5$$ nostetaan solmun $$3$$ yli:
 
-![](avl_e6.png)
+![](img/avl_e6.png)
 
 Näiden kiertojen jälkeen puu on jälleen tasapainoinen.
 
