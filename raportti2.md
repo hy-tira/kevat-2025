@@ -54,10 +54,6 @@ _Kommentti_: Dynaaminen ohjelmointi tuntuu nykyisellä käsittelytavalla ehkä l
 
 _Kommentti_: Tämä olisi hyvä tavoite tulevaisuudessa. Tehtävien nimissä tuntuu tulevan yllättävän usein törmäyksiä.
 
-"Esim. Dijkstran algoritmi on yksi keskeisimmistä ja laajimmin sovelletuista verkkoalgoritmeista, mutta kurssimateriaali ei tuo tätä juurikaan esiin."
-
-_Kommentti_: Kurssin vastuuhenkilön käsitys ei ole, että Dijkstran algoritmi olisi sellaisessa erityisasemassa verkkoalgoritmien keskuudessa, että tätä pitäisi tuoda enemmän esille.
-
 "Joidenkin tehtävien esim. Listapelin tehtävänanto oli hämmentävä ja ajoi väärin johtopäätöksiin, joten varmistaisin että oikeaa tulkintaa varten ei joutuisi ensin kantapään kautta tehdä paljon töitä."
 
 _Kommentti_: Joissakin tehtävissä voisi tosiaan olla hyvä selostaa tarkemmin, miten algoritmin tulisi toimia esimerkiksi tietyllä syötteellä.
